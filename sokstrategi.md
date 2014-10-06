@@ -1,0 +1,4 @@
+#Västra Götalandsregionens sökstrategi#
+
+##Definitioner##
+
