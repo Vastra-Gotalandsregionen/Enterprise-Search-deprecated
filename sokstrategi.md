@@ -24,11 +24,11 @@ Syftet med sök är att **relevant information ska vara lätt att hitta samt åt
 ###Söks roll i den totala informationsförsörjningen (målgrupper)###
 Grov uppdelning av målgrupper kan göras till **medborgare** samt **anställda**, men man bör även komma ihåg följande grupper:
 
-- Privata vårdgivare med avtal. Har viss domänexpertis men kan vara nybörjare på VGR:s synsätt.
-- Andra externa intressenter och aktörer som har en yrkesmässig anledning i sin kontakt med VGR, exempelvis de som vill söka bidrag.
-- Andra tekniska plattformar som behöver åtkomst till information sök-miljön samlat på sig. Det kan bland annat vara att tipsa en anställd om internutbildning viktat på faktorer som geografisk närhet, kostnad och yrkesroll.
+- *Privata vårdgivare* med avtal. Har viss domänexpertis men kan vara nybörjare på VGR:s synsätt.
+- *Andra externa intressenter* och aktörer som har en yrkesmässig anledning i sin kontakt med VGR, exempelvis de som vill söka bidrag.
+- Andra *tekniska plattformar* som behöver åtkomst till information sök-miljön samlat på sig. Det kan bland annat vara att tipsa en anställd om internutbildning viktat på faktorer som geografisk närhet, kostnad och yrkesroll.
 
-Den största skillnaden mellan medborgare och anställda är att medborgare inte har, eller bör ha, anledning att förstå verksamhetens kompelxitet eller struktur - de har ett informationsbehov och det bör räcka för att hitta fram.
+Den största skillnaden mellan medborgare och anställda är att medborgare inte har, eller bör ha, anledning att förstå verksamhetens komplexitet eller struktur - de har ett informationsbehov och det bör räcka för att hitta fram.
 
 ####Sök är mer än en sökruta####
 Både som sökruta men också som informationskälla (via API) till andra system. Jämför med Google Now och andra relevansstyrda "tips".
