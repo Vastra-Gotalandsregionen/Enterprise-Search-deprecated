@@ -46,7 +46,7 @@ Arbetsuppgifter... Verksamhetsperson...
 ####2. Sök-scopes vara eller icke-vara####
 Hur ska man jobba med de scope (avgränsande organisatoriska filter) som idag används frekvent? Ett förslag har varit att helt ta bort scope, ett annat att baserat på första träffens relevans matcha mot träffar utanför scope.
 
-####3. Arbeta med frassökning och synonym-hantering####
+####3. Arbeta med frassökning, stoppord och synonym-hantering####
 
 
 ####4. Utvärdera keymatches i sökresultatet####
@@ -65,6 +65,8 @@ En förutsättning för detta är att veta lite mer om vem den sökande är. På
 ####1. Sökanalys på bredden####
 Meddela skapare av information vilken av deras information som inte är särskilt sökbar på grund av SEO-faktorer. Kan bli lång lista...
 
+Idag listas inte om det är extern sökare, vilket scope man befann sig i etc vilket gör det svårarbetat.
+
 Utvärdera nuvarande systemstöd för sökanalys. Troligtvis borde vi försöka hitta en standardprodukt för detta eller annat arbetssätt som är lättare för noviser att använda/omsätta till kunskap. Kanske funkar [SSA](http://sematext.com/search-analytics/)?
 
 ####2. Utreda möjligheter och behov av svarsmotor####
@@ -76,10 +78,18 @@ Går det att få till en vettig relevansmodell när dokument och webbsidor har s
 ####4. Inventera externa källor att indexera####
 De externa platser där VGR bidrar med innehåll. Exempel på dessa är publikt tillgängliga sociala medier såsom Twitter, Instagram mfl.
 
+####5. Utvärdera möjligheten att boosta källor baserat på sökterm####
+Jobba med register över "aktiveringsord". Exempelvis en sökning på *blodgivning* på externa sökfunktionen kanske bör boosta källan geblod.nu?
+
+Går detta att automatisera eller göras hanterbar i större skala över längre tid?
+
 ###Förslag på aktiviteter i mån av tid & energi###
 
 ####Se över kriterier för att indexera datakälla####
 Vilka kriterier talar för och vilka talar emot? Data-discovery...
+
+####Utreda möjligheten till testbarhet inom relevansmodell####
+Går det att förutse påverkan på sökresultat baserat på ett antal sökpersonas, 1000 vanligaste söktermerna eller liknande?
 
 ##Ansvar och genomförande##
 Under förutsättning att budget tilldelas kommer sökstrategins förverkligande drivas av *Objektet för kommunikation via webbtjänster* i samarbete med andra intressenter.
