@@ -88,6 +88,9 @@ Går detta att automatisera eller göras hanterbar i större skala över längre
 ####Se över kriterier för att indexera datakälla####
 Vilka kriterier talar för och vilka talar emot? Data-discovery...
 
+####Utreda möjligheterna till bättre metadata-hantering####
+RDFa bland annat.
+
 ####Utreda möjligheten till testbarhet inom relevansmodell####
 Går det att förutse påverkan på sökresultat baserat på ett antal sökpersonas, 1000 vanligaste söktermerna eller liknande?
 
@@ -100,3 +103,8 @@ Denna strategi har beroenden till bland annat följande:
 - Digital livscykelhantering för information (dvs hur man får användare att metadata-märka korrekt, välja rätt format, arkivera samt ibland återanvända).
 - PSI-data, öppna data och länkade data.
 - IT-produktstrategi i den mån IT:s beslut påverkar verksamheten i form av tekniska plattformar.
+
+Inspirationskällor:
+
+- [Intranet Focus: Developing an enterprise search strategy](http://www.intranetfocus.com/wp-content/uploads/Enterprise-Search-Strategy.pdf)
+- [Findwise: Enterprise Search and Findability Survey 2014](http://www.slideshare.net/findwise/mattias-enterprise-search-and-findability-survey-2014-findability-day-2014) [[beställ rapporten](http://www2.findwise.com/findabilitysurvey2014)]
