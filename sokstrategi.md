@@ -11,7 +11,7 @@ Materialet går under licensen [CC-BY-SA](https://creativecommons.org/licenses/b
 
 ###Definitioner###
 
-- **Sök & sökteknik** - med ordet sök avses det ekosystem av mjukvaror som hjälper till med att låta användare söka efter information, såväl sök-gränssnittet gentemot användare men också den bearbetning som görs för att en källa ska bli sökbar.
+- **Sök & sökteknik** - med ordet sök avses det ekosystem av mjukvaror som hjälper till med att låta användare söka efter information, såväl sök-gränssnittet gentemot användare men också den bearbetning som görs för att en källa ska bli sökbar. 
 - **API** - står för *Application Programming Interface* och är det tekniska gränssnittet för att utföra en sökning eller mellan system kommunicera med sökmotorn.
 - **Relevansmodell** - de utvalda viktningsfaktorer som styr vilken informations som anses viktig i relation till annan. Exempelvis att ett sökords förekomst i en titel är viktigare än i en brödtext.
 - **Metadata** - information om information. Kan exempelvis vara ett nyckelord webbredaktören satt på en webbsida eller datumet när ett dokument senast ändrades.
