@@ -21,6 +21,15 @@ Materialet går under licensen [CC-BY-SA](https://creativecommons.org/licenses/b
 ###Syfte###
 Syftet med sök är att **relevant information ska vara lätt att hitta samt återanvända** för alla berörda av information VGR har i sina informationssystem.
 
+###Förväntade effekter###
+Med hjälp av sök skall det vara _____ att ___.
+
+Konkretiserat till några enskilda exempel:
+
+1. bla
+2. bla
+3. bla
+
 ###Söks roll i den totala informationsförsörjningen (målgrupper)###
 Grov uppdelning av målgrupper kan göras till **medborgare** samt **anställda**, men man bör även komma ihåg följande grupper:
 
@@ -32,6 +41,15 @@ Den största skillnaden mellan medborgare och anställda är att medborgare inte
 
 ####Sök är mer än en sökruta####
 Både som sökruta men också som informationskälla (via API) till andra system. Jämför med Google Now och andra relevansstyrda "tips".
+
+###Snabb introduktion till relevansmodellen###
+Dessa är de typer av information vår sökmotor har med i sin bedömning om i vilken ordning träffarna ska visas - vad som är mest relevant till ställd sökfråga:
+
+ - **Eventuella fullträffar** på diarienummer eller fält i annan verksamhetsspecifik datakälla. Det vill säga att en anställds användarnamn, ett telefonnummer, ärendenummer etc.
+ - 
+
+
+Viktning
 
 ##Övergripande mål##
 Målet med sök är att det ska vara lätt att komma över den information man behöver, när man behöver den och på det sätt man behöver den.
@@ -94,12 +112,15 @@ RDFa bland annat.
 ####Utreda möjligheten till testbarhet inom relevansmodell####
 Går det att förutse påverkan på sökresultat baserat på ett antal sökpersonas, 1000 vanligaste söktermerna eller liknande?
 
+####Utreda inloggat sök = att man söker i skyddade informationskällor####
+SSO-bekymmer...
 
 ####Hur använda webbstatistik som indata i relevansmodellen?####
 
 
 ####Kan webbstatistik stå som källa för URL:ar att indexera?####
-Tyder ju på att det finns användning och om crawlern ska bli mer "demokratisk"  
+Tyder ju på att det finns användning och om crawlern ska bli mer "demokratisk" och indexera det medarbetarna faktiskt tar del av så...  
+Vara ok för urlar likt *.vgregion.se/* och frågan är om det går att peka ut externa... 
 
 ##Ansvar och genomförande##
 Under förutsättning att budget tilldelas kommer sökstrategins förverkligande drivas av *Objektet för kommunikation via webbtjänster* i samarbete med andra intressenter.
