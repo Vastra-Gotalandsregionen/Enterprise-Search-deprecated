@@ -94,6 +94,13 @@ RDFa bland annat.
 ####Utreda möjligheten till testbarhet inom relevansmodell####
 Går det att förutse påverkan på sökresultat baserat på ett antal sökpersonas, 1000 vanligaste söktermerna eller liknande?
 
+
+####Hur använda webbstatistik som indata i relevansmodellen?####
+
+
+####Kan webbstatistik stå som källa för URL:ar att indexera?####
+Tyder ju på att det finns användning och om crawlern ska bli mer "demokratisk"  
+
 ##Ansvar och genomförande##
 Under förutsättning att budget tilldelas kommer sökstrategins förverkligande drivas av *Objektet för kommunikation via webbtjänster* i samarbete med andra intressenter.
 
