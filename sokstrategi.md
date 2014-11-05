@@ -18,7 +18,11 @@ Denna strategi handlar om hur man som organisation jobbar med den sökteknik man
 - **Relevansmodell** - är en samling av de utvalda viktningsfaktorer som styr vilken information som anses viktig i relation till annan. Ett exempel på ett kriterie i en relevansmodell är att ett sökords förekomst i en titel är viktigare än om den finns en brödtext. Finns sökordet i både titeln och brödtexten anses dokumentet ännu mer relevant.
 - **Metadata** - information om information. Kan exempelvis vara ett nyckelord webbredaktören satt på en webbsida eller datumet när ett dokument senast ändrades.
 - **Metadata-märkning** - själva aktiviteten att skaparen av informationen märker, beskriver alltså, sin skapelse med extra information som dess kategori, skriver en kort beskrivningstext, relaterar den till någon etablerad branschterm etc.
-- **Keymatch** - ibland kommer det en träff ovanför det vanliga sökresultatet. Det är vad som kallas för sponsrad träff på kommersiella sökmotorer men används internt för att vägleda till "rätt" träff som av någon anledning inte kommer högt nog i träfflistan.
+- **Keymatch** - ibland kommer det en träff ovanför det vanliga sökresultatet. Det är vad som kallas för sponsrad träff på kommersiella sökmotorer men används på organisationsinterna sökmotorer för att vägleda till "rätt" träff som av någon anledning inte kommer högt nog i träfflistan.
+- **Synonym** betyder i detta sammanhang ganska samma sak som man är van vid. Dock avses en massiv och strukturerad hantering av synonymer då sökmotorn behöver hjälp att rangordna synonymerna sinsemellan, inte minst då man ibland .
+- **Stoppord** (ska fråga Evelyn)
+- **Vokabulär** är en ordlista som oftast är ämnesspecifik. Ibland är ordlistan   strukturerad i en trädstruktur med allt mer specifika branschtermer ju längre ut man tittar. Vissa vokabulär är standardiserade, exempelvis MeSH där en organisation styr vilka medicinska begrepp som är etablerade nog att platsa.
+- **Scope** avser när en sökning görs med någon form av automatisk filtrering eller avgränsning. Vanligt är att man har ett organisatoriskt scope vilket gör att användaren söker inom en begränsad mängd av information, nämligen den som härör från vald del av organisationen.
 - **Webbsida kontra dokument** - i denna dokumentation kommer ordet dokument konsekvent att användas och då avse även enskilda webbsidor, alltså HTML-dokument. Ett dokument är här en paketering av innehåll oavsett om det är en Word-fil, bild eller sida på ett intranät.
 
 ###Syfte###
@@ -112,6 +116,10 @@ Kan behöva göras en intern marknadsföringskampanj som förklarar poängen med
 ####x. Sök-scopes vara eller icke-vara####
 Hur ska man jobba med de scope (avgränsande organisatoriska filter) som idag används frekvent? Ett förslag har varit att helt ta bort scope, ett annat att baserat på första träffens relevans matcha mot träffar utanför scope.
 
+Sätt att göra det tydligare vad en sökning inom ett scope innebär för användaren är att skriva ut det i klartext i sökfunktionen, exempelvis:  
+"Du söker nu enbart inom *din organisatoriska enhet*. Klicka här för att utvidga din sökning till hela organisationen >>".  
+Utöver det kan man fundera på att i sökresultatet ha en varning för om man utanför scopet har ett, enligt sökmotorns relevansmodell, väsentligt mycket mer relevant träff/resultat än det som hör hemma inom scopet.
+
 ####x. Arbeta med frassökning, stoppord och synonym-hantering####
 
 
@@ -135,14 +143,18 @@ RDFa bland annat.
 Går det att förutse påverkan på sökresultat baserat på ett antal sökpersonas, 1000 vanligaste söktermerna eller liknande?
 
 ####x. Utreda inloggat sök = att man söker i skyddade informationskällor####
-SSO-bekymmer...
+Att sök ska kunna ikläda sig användarens behörighet. 
+
+Utmaningar relaterat till detta är så kallad single sign-on, alltså hur sökmotorn ska veta vem den sökande användaren är och eventuellt "översätta" mellan sökanvändarens behörighet och vad källsystemet vet om den personen. Monokultur är i detta sammanhang en underlättande faktor.
 
 ####x. Hur använda webbstatistik som indata i relevansmodellen?####
 
 
 ####x. Kan webbstatistik stå som källa för URL:ar att indexera?####
 Tyder ju på att det finns användning och om crawlern ska bli mer "demokratisk" och indexera det medarbetarna faktiskt tar del av så...  
-Vara ok för urlar likt *.vgregion.se/* och frågan är om det går att peka ut externa... 
+Vara ok för urlar likt *.vgregion.se/* och frågan är om det går att peka ut externa på något automatiserat sätt? I annat fall kan man säkert via IT-organisationen med jämna mellanrum komma över en aktuell lista med vanligast besökta externa webbplatser och välja att indexera de som är betrodda.
+
+Anledningen till varför man skulle vilja indexera externa källor kan vara något svag. Det som väger tyngst är nog att det inte är logiskt att arbetsgivarens sökmotor inte har räckvidd till merparten av det som gäller de anställdas sökbehov. Gränsdragningen är inte lika självklar för en som är tekniskt ointresserad som för vissa andra.
 
 ##Ansvar och genomförande##
 Under förutsättning att budget tilldelas kommer sökstrategins förverkligande drivas av *Objektet för kommunikation via webbtjänster* i samarbete med andra intressenter.
