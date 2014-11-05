@@ -9,7 +9,7 @@ Materialet går under licensen [CC-BY-SA](https://creativecommons.org/licenses/b
 
 ##Utgångspunkt##
 
-Denna strategi handlar om hur man som organisation jobbar med den sökteknik man själv ansvarar för och använder för interna behov, det är inte något om hur man når ut via, för organisationen, externa sökmotorer som Google, Bing mfl.
+Denna strategi handlar om hur man som organisation jobbar med den sökteknik man själv ansvarar för och använder för interna behov. Det är inte något om hur man når ut via, för organisationen, externa sökmotorer som Google, Bing mfl.
 
 ###Definitioner###
 
@@ -46,8 +46,18 @@ Grov uppdelning av målgrupper kan göras till **medborgare** samt **anställda*
 
 Den största skillnaden mellan medborgare och anställda är att medborgare inte har, eller bör ha, anledning att förstå verksamhetens komplexitet eller struktur - de har ett informationsbehov och det bör räcka för att hitta fram.
 
-####Sök är mer än en sökruta####
-Både som sökruta men också som informationskälla (via API) till andra system. Jämför med Google Now och andra relevansstyrda "tips".
+###Snabb introduktion till olika sökbeteenden###
+Grovt förenklat finns två kapaciteter som särskiljer användare av sök. Dels de som är **tekniskt bevandrade**, den andra är om de är **ämnesmässigt kunniga** på det ämne de eftersöker information kring.  
+Exemplifierat finns de som utan problem kan hantera all tänkbar teknisk utrustning och har lätt för att interagera med informationssystem. Den andra kapaciteten är om man har expertis eller djupt kunnande inom det de eftersöker. Man kan givetvis vara bra på bägge och (en *dubbelexpert*), men också vara nybörjare på bägge kapaciteterna (en *dubbelnovis*). Detta är viktigt eftersom det påverkar hur man söker efter information.
+
+Tänk dig en allmänläkare, man kan förutsätta att denne kan tillräckligt mycket inom medicin för att kunna bedöma ett innehålls värde ganska snabbt. Den raka motsatsen är när samma läkare söker information denne inte kan något om, vilket skulle kunna handla om elektronik, förbränningsmotorer etc.  
+Samma synsätt kan man ha för om en användare känner sig kompetent att använda de tekniska verktyg som står till buds för att utföra en sökning. Det kanske handlar om ifall användaren förstår att använda filtreringsfunktioner och vad olika filformat kan tänkas betyda.
+
+Dubbelnoviser orienterar sig till synes förvirrat fram mot ett okänt mål. Dubbelexperter går direkt på målet.  
+En sökfunktion måste kunna stödja båda dessa extremer, särskilt med tanke på att samma person i ena stunden är dubbelexpert för att strax därefter inte ha en susning om ämnet hen eftersöker.
+
+###Snabb intro till platser där sök kan användas###
+Både som sökruta men också som informationskälla (via API) till andra system. Jämför med Google Now och andra relevansstyrda "tips". Endast i fallet med en sökruta är det för användaren tydligt att det är sök det handlar om.
 
 ###Snabb introduktion till relevansmodellen###
 Dessa är de typer av information vår sökmotor har med i sin bedömning om i vilken ordning träffarna ska visas - vad som är mest relevant till ställd sökfråga (i viktighetsordning):
@@ -164,10 +174,11 @@ Denna strategi har beroenden till bland annat följande:
 
 - Digital livscykelhantering för information (dvs hur man får användare att metadata-märka korrekt, välja rätt format, arkivera samt ibland återanvända).
 - PSI-data, öppna data och länkade data.
-- "Big data"
+- "Big data", ostrukturerade data.
 - IT-produktstrategi i den mån IT:s beslut påverkar verksamheten i form av tekniska plattformar.
 
 Inspirationskällor:
 
 - [Intranet Focus: Developing an enterprise search strategy](http://www.intranetfocus.com/wp-content/uploads/Enterprise-Search-Strategy.pdf)
 - [Findwise: Enterprise Search and Findability Survey 2014](http://www.slideshare.net/findwise/mattias-enterprise-search-and-findability-survey-2014-findability-day-2014) [[beställ rapporten](http://www2.findwise.com/findabilitysurvey2014)]
+- [Designing The Search Experience - The Information Architecture of Discovery](http://designingthesearchexperience.com)
