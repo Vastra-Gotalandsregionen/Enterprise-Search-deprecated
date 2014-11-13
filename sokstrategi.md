@@ -143,6 +143,8 @@ Det som möter en användare _måste_ idag fungera i en mobiltelefon och vara an
 Finns behov till ett personaliserat sök och vad är i så fall viktigast att fixa först? Behöver hantera att användaren inte ska hamna i någon filterbubbla.  
 En förutsättning för detta är att veta lite mer om vem den sökande är. På externa webben (om vi väljer att använda det även där) finns indikationer som geografisk plats och beteendedata, internt kan vi ofta komplettera samma uppgifter med eventuell inloggning tillsammans med koppling till medarbetarregister.
 
+Exempel på användningsområden är att relevansstyra interna jobbannonser så de kan riktas till rätt medarbetare. Vad som är "rätt" blir en mix av den information som finns tillgänglig både om den anställde och om utannonserad tjänst. Bland annat är det tänkbart att åtminstone yrkestitel, typ av anställning, geografisk plats bör ingå i övervägandet.
+
 ####x. Se över kriterier för att indexera datakälla####
 Vilka kriterier talar för och vilka talar emot? Data-discovery...
 
