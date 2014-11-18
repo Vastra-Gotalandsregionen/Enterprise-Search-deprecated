@@ -1,4 +1,7 @@
-#Västra Götalandsregionens sökstrategi#
+#Sökstrategi#
+
+OBS: Fram till nyår kommer dokumentationen skötas på Google Docs för simplare samarbete, dock kommer resultatet av årets arbete att återpubliceras här på Github. [Sökstrategin kan du följa här](https://docs.google.com/document/d/1M46c7LyPio9ZvLMWwnw2HhN8Q7yXcqthaPSK4-5y53I/edit?usp=sharing), [introduktionen till sök här](https://docs.google.com/a/webbfunktion.com/document/d/1un6q9G8bu2UMUybBjytjL8-ceUdK1yeetWHfceH7dO0/edit?usp=sharing) och [mallen för aktivitetsplan här](https://docs.google.com/a/webbfunktion.com/document/d/1CSJxOrxGsTQxwIJi-Nd6veNN4m7efAreRo1iC3U9MUQ/edit?usp=sharing).  
+Vill du delta får du gärna kontakta marcus.osterberg(a)vgregion.se, alla inspel är välkomna!
 
 ##Snabbintro & licens##
 Denna sökstrategi är inte klar och den kommer aldrig bli klar. Se detta som ett levande dokument som jagar det rörliga målet att **relevant information ska vara lätt att hitta samt återanvända**.
@@ -9,7 +12,7 @@ Materialet går under licensen [CC-BY-SA](https://creativecommons.org/licenses/b
 
 ##Utgångspunkt##
 
-Denna strategi handlar om hur man som organisation jobbar med den sökteknik man själv ansvarar för och använder för interna behov, det är inte något om hur man når ut via, för organisationen, externa sökmotorer som Google, Bing mfl.
+Denna strategi handlar om hur man som organisation jobbar med den sökteknik man själv ansvarar för och använder för interna behov. Det är inte något om hur man når ut via, för organisationen, externa sökmotorer som Google, Bing mfl.
 
 ###Definitioner###
 
@@ -20,7 +23,7 @@ Denna strategi handlar om hur man som organisation jobbar med den sökteknik man
 - **Metadata-märkning** - själva aktiviteten att skaparen av informationen märker, beskriver alltså, sin skapelse med extra information som dess kategori, skriver en kort beskrivningstext, relaterar den till någon etablerad branschterm etc.
 - **Keymatch** - ibland kommer det en träff ovanför det vanliga sökresultatet. Det är vad som kallas för sponsrad träff på kommersiella sökmotorer men används på organisationsinterna sökmotorer för att vägleda till "rätt" träff som av någon anledning inte kommer högt nog i träfflistan.
 - **Synonym** betyder i detta sammanhang ganska samma sak som man är van vid. Dock avses en massiv och strukturerad hantering av synonymer då sökmotorn behöver hjälp att rangordna synonymerna sinsemellan, inte minst då man ibland .
-- **Stoppord** (ska fråga Evelyn)
+- **Stoppord** är irrelevanta ord som kan/bör uteslutas från att påverka sökmotorn och därmed sökresultatet. Exempel på stoppord är; *alltså*, *så*, *som*, *med*.
 - **Vokabulär** är en ordlista som oftast är ämnesspecifik. Ibland är ordlistan   strukturerad i en trädstruktur med allt mer specifika branschtermer ju längre ut man tittar. Vissa vokabulär är standardiserade, exempelvis MeSH där en organisation styr vilka medicinska begrepp som är etablerade nog att platsa.
 - **Scope** avser när en sökning görs med någon form av automatisk filtrering eller avgränsning. Vanligt är att man har ett organisatoriskt scope vilket gör att användaren söker inom en begränsad mängd av information, nämligen den som härör från vald del av organisationen.
 - **Webbsida kontra dokument** - i denna dokumentation kommer ordet dokument konsekvent att användas och då avse även enskilda webbsidor, alltså HTML-dokument. Ett dokument är här en paketering av innehåll oavsett om det är en Word-fil, bild eller sida på ett intranät.
@@ -46,8 +49,18 @@ Grov uppdelning av målgrupper kan göras till **medborgare** samt **anställda*
 
 Den största skillnaden mellan medborgare och anställda är att medborgare inte har, eller bör ha, anledning att förstå verksamhetens komplexitet eller struktur - de har ett informationsbehov och det bör räcka för att hitta fram.
 
-####Sök är mer än en sökruta####
-Både som sökruta men också som informationskälla (via API) till andra system. Jämför med Google Now och andra relevansstyrda "tips".
+###Snabb introduktion till olika sökbeteenden###
+Grovt förenklat finns två kapaciteter som särskiljer användare av sök. Dels de som är **tekniskt bevandrade**, den andra är om de är **ämnesmässigt kunniga** på det ämne de eftersöker information kring.  
+Exemplifierat finns de som utan problem kan hantera all tänkbar teknisk utrustning och har lätt för att interagera med informationssystem. Den andra kapaciteten är om man har expertis eller djupt kunnande inom det de eftersöker. Man kan givetvis vara bra på bägge och (en *dubbelexpert*), men också vara nybörjare på bägge kapaciteterna (en *dubbelnovis*). Detta är viktigt eftersom det påverkar hur man söker efter information.
+
+Tänk dig en allmänläkare, man kan förutsätta att denne kan tillräckligt mycket inom medicin för att kunna bedöma ett innehålls värde ganska snabbt. Den raka motsatsen är när samma läkare söker information denne inte kan något om, vilket skulle kunna handla om elektronik, förbränningsmotorer etc.  
+Samma synsätt kan man ha för om en användare känner sig kompetent att använda de tekniska verktyg som står till buds för att utföra en sökning. Det kanske handlar om ifall användaren förstår att använda filtreringsfunktioner och vad olika filformat kan tänkas betyda.
+
+Dubbelnoviser orienterar sig till synes förvirrat fram mot ett okänt mål. Dubbelexperter går direkt på målet.  
+En sökfunktion måste kunna stödja båda dessa extremer, särskilt med tanke på att samma person i ena stunden är dubbelexpert för att strax därefter inte ha en susning om ämnet hen eftersöker.
+
+###Snabb intro till platser där sök kan användas###
+Både som sökruta men också som informationskälla (via API) till andra system. Jämför med Google Now och andra relevansstyrda "tips". Endast i fallet med en sökruta är det för användaren tydligt att det är sök det handlar om.
 
 ###Snabb introduktion till relevansmodellen###
 Dessa är de typer av information vår sökmotor har med i sin bedömning om i vilken ordning träffarna ska visas - vad som är mest relevant till ställd sökfråga (i viktighetsordning):
@@ -133,6 +146,8 @@ Det som möter en användare _måste_ idag fungera i en mobiltelefon och vara an
 Finns behov till ett personaliserat sök och vad är i så fall viktigast att fixa först? Behöver hantera att användaren inte ska hamna i någon filterbubbla.  
 En förutsättning för detta är att veta lite mer om vem den sökande är. På externa webben (om vi väljer att använda det även där) finns indikationer som geografisk plats och beteendedata, internt kan vi ofta komplettera samma uppgifter med eventuell inloggning tillsammans med koppling till medarbetarregister.
 
+Exempel på användningsområden är att relevansstyra interna jobbannonser så de kan riktas till rätt medarbetare. Vad som är "rätt" blir en mix av den information som finns tillgänglig både om den anställde och om utannonserad tjänst. Bland annat är det tänkbart att åtminstone yrkestitel, typ av anställning, geografisk plats bör ingå i övervägandet.
+
 ####x. Se över kriterier för att indexera datakälla####
 Vilka kriterier talar för och vilka talar emot? Data-discovery...
 
@@ -164,10 +179,11 @@ Denna strategi har beroenden till bland annat följande:
 
 - Digital livscykelhantering för information (dvs hur man får användare att metadata-märka korrekt, välja rätt format, arkivera samt ibland återanvända).
 - PSI-data, öppna data och länkade data.
-- "Big data"
+- "Big data", ostrukturerade data.
 - IT-produktstrategi i den mån IT:s beslut påverkar verksamheten i form av tekniska plattformar.
 
 Inspirationskällor:
 
 - [Intranet Focus: Developing an enterprise search strategy](http://www.intranetfocus.com/wp-content/uploads/Enterprise-Search-Strategy.pdf)
 - [Findwise: Enterprise Search and Findability Survey 2014](http://www.slideshare.net/findwise/mattias-enterprise-search-and-findability-survey-2014-findability-day-2014) [[beställ rapporten](http://www2.findwise.com/findabilitysurvey2014)]
+- [Designing The Search Experience - The Information Architecture of Discovery](http://designingthesearchexperience.com)
