@@ -1,4 +1,7 @@
-#Västra Götalandsregionens sökstrategi#
+#Sökstrategi#
+
+OBS: Fram till nyår kommer dokumentationen skötas på Google Docs för simplare samarbete, dock kommer resultatet av årets arbete att återpubliceras här på Github. [Sökstrategin kan du följa här](https://docs.google.com/document/d/1M46c7LyPio9ZvLMWwnw2HhN8Q7yXcqthaPSK4-5y53I/edit?usp=sharing), [introduktionen till sök här](https://docs.google.com/a/webbfunktion.com/document/d/1un6q9G8bu2UMUybBjytjL8-ceUdK1yeetWHfceH7dO0/edit?usp=sharing) och [mallen för aktivitetsplan här](https://docs.google.com/a/webbfunktion.com/document/d/1CSJxOrxGsTQxwIJi-Nd6veNN4m7efAreRo1iC3U9MUQ/edit?usp=sharing).  
+Vill du delta får du gärna kontakta marcus.osterberg(a)vgregion.se, alla inspel är välkomna!
 
 ##Snabbintro & licens##
 Denna sökstrategi är inte klar och den kommer aldrig bli klar. Se detta som ett levande dokument som jagar det rörliga målet att **relevant information ska vara lätt att hitta samt återanvända**.
