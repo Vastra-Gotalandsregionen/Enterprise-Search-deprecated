@@ -1,189 +1,192 @@
-#Sökstrategi#
+#Sökstrategi
 
-OBS: Fram till nyår kommer dokumentationen skötas på Google Docs för simplare samarbete, dock kommer resultatet av årets arbete att återpubliceras här på Github. [Sökstrategin kan du följa här](https://docs.google.com/document/d/1M46c7LyPio9ZvLMWwnw2HhN8Q7yXcqthaPSK4-5y53I/edit?usp=sharing), [introduktionen till sök här](https://docs.google.com/a/webbfunktion.com/document/d/1un6q9G8bu2UMUybBjytjL8-ceUdK1yeetWHfceH7dO0/edit?usp=sharing) och [mallen för aktivitetsplan här](https://docs.google.com/a/webbfunktion.com/document/d/1CSJxOrxGsTQxwIJi-Nd6veNN4m7efAreRo1iC3U9MUQ/edit?usp=sharing).  
-Vill du delta får du gärna kontakta marcus.osterberg(a)vgregion.se, alla inspel är välkomna!
+## Licens
 
-##Snabbintro & licens##
-Denna sökstrategi är inte klar och den kommer aldrig bli klar. Se detta som ett levande dokument som jagar det rörliga målet att **relevant information ska vara lätt att hitta samt återanvända**.
+Detta material har tagits fram av [Västra Götalandsregionen (VGR)](http://www.vgregion.se/) i samarbete med flertalet andra offentliga aktörer. Det är inte att betrakta som färdigt. Vi sprider sådan här information för att samverka med externa intressenter. Materialet går under licensen [CC-BY-SA](https://creativecommons.org/licenses/by-sa/3.0/) vilket bland annat medger vidareanvändning.
 
-###Licens##
-Detta material har tagits fram av [Västra Götalandsregionen (VGR)](http://vgregion.se). Det är inte att betrakta som färdigt. VGR sprider sån här information för att samverka med externa intressenter.  
-Materialet går under licensen [CC-BY-SA](https://creativecommons.org/licenses/by-sa/3.0/) vilket bland annat medger vidareanvändning.
+Utöver detta dokument finns också en [mall för aktivitetsplan](sokstrategi-aktivitetsplan.md).
 
-##Utgångspunkt##
+## Om strategin
 
-Denna strategi handlar om hur man som organisation jobbar med den sökteknik man själv ansvarar för och använder för interna behov. Det är inte något om hur man når ut via, för organisationen, externa sökmotorer som Google, Bing mfl.
+Detta är en strategi för **verksamhetssök**, det vill säga de verktyg och system som samverkar för att söka i organisationens egna informationskällor.
 
-###Definitioner###
+## Verksamhetsmål
 
-- **Sök & sökteknik** - med ordet sök avses det ekosystem av mjukvaror som hjälper till med att låta användare söka efter information, såväl sök-gränssnittet gentemot användare men också den bearbetning som görs för att en källa ska bli sökbar. 
-- **API** - står för *Application Programming Interface* och är det tekniska gränssnittet för att utföra en sökning eller mellan system kommunicera med sökmotorn.
-- **Relevansmodell** - är en samling av de utvalda viktningsfaktorer som styr vilken information som anses viktig i relation till annan. Ett exempel på ett kriterie i en relevansmodell är att ett sökords förekomst i en titel är viktigare än om den finns en brödtext. Finns sökordet i både titeln och brödtexten anses dokumentet ännu mer relevant.
-- **Metadata** - information om information. Kan exempelvis vara ett nyckelord webbredaktören satt på en webbsida eller datumet när ett dokument senast ändrades.
-- **Metadata-märkning** - själva aktiviteten att skaparen av informationen märker, beskriver alltså, sin skapelse med extra information som dess kategori, skriver en kort beskrivningstext, relaterar den till någon etablerad branschterm etc.
-- **Keymatch** - ibland kommer det en träff ovanför det vanliga sökresultatet. Det är vad som kallas för sponsrad träff på kommersiella sökmotorer men används på organisationsinterna sökmotorer för att vägleda till "rätt" träff som av någon anledning inte kommer högt nog i träfflistan.
-- **Synonym** betyder i detta sammanhang ganska samma sak som man är van vid. Dock avses en massiv och strukturerad hantering av synonymer då sökmotorn behöver hjälp att rangordna synonymerna sinsemellan, inte minst då man ibland .
-- **Stoppord** är irrelevanta ord som kan/bör uteslutas från att påverka sökmotorn och därmed sökresultatet. Exempel på stoppord är; *alltså*, *så*, *som*, *med*.
-- **Vokabulär** är en ordlista som oftast är ämnesspecifik. Ibland är ordlistan   strukturerad i en trädstruktur med allt mer specifika branschtermer ju längre ut man tittar. Vissa vokabulär är standardiserade, exempelvis MeSH där en organisation styr vilka medicinska begrepp som är etablerade nog att platsa.
-- **Scope** avser när en sökning görs med någon form av automatisk filtrering eller avgränsning. Vanligt är att man har ett organisatoriskt scope vilket gör att användaren söker inom en begränsad mängd av information, nämligen den som härör från vald del av organisationen.
-- **Webbsida kontra dokument** - i denna dokumentation kommer ordet dokument konsekvent att användas och då avse även enskilda webbsidor, alltså HTML-dokument. Ett dokument är här en paketering av innehåll oavsett om det är en Word-fil, bild eller sida på ett intranät.
+En organisationsintern sökfunktions främsta användningsområde är att hjälpa till med att hitta information och kunskap när det för användaren inte är uppenbart var den finns, eller att den finns. 
 
-###Syfte###
-Syftet med sök är att **relevant information ska vara lätt att hitta samt återanvända** för alla berörda av information VGR har i sina informationssystem.
+Sökfunktionen är det verktyg som erbjuds när redaktionell prioritering, andra typer av listning eller kommunikationsvägar inte löser användarens problem. I och med att sökfunktionen har en unik översikt över flera informationskällor kan den också användas för att förmedla information mellan olika informationssystem.
 
-###Förväntade effekter###
-Med hjälp av sök skall det vara _____ att ___.
+Anledningar till att det är svårt att räkna hem investering i en sökfunktion grundar sig i huvudsak i att sökanvändningen inte är en del av ett kontrollerat verksamhetsflöde, och även om det var det så är det primärt tid som sparas in. Tid är inte heller någon särskilt bra indikator för framgång. Med andra ord är det svårt att sätta några objektivt sanna nyckeltal som definierar framgång för sök.
 
-Konkretiserat till några enskilda exempel:
+Det som branschexpertis lyfter fram som framgångsfaktorer för sökfunktioner är hur man kan undvika risker, exempelvis de risker som finns att någon agerar på utgången kunskap. Detta går att mäta kvantitativt.
 
-1. bla
-2. bla
-3. bla
+Det andra exemplet som hålls fram är att titta historiskt vilka möjligheter som inte tagits tillvara fullt ut på grund av bristfälligt informationsunderlag, exempelvis vid stora förändringar i omvärlden eller intern omorganisation. Detta kan mätas kvalitativt.
 
-###Söks roll i den totala informationsförsörjningen (målgrupper)###
-Grov uppdelning av målgrupper kan göras till **medborgare** samt **anställda**, men man bör även komma ihåg följande grupper:
+Med andra ord räcker det inte med att det finns en sökfunktion, den måste vara känd bland de som behöver den men också prestera väl för de som väljer att använda den.
 
-- *Privata vårdgivare* med avtal. Har viss domänexpertis men kan vara nybörjare på VGR:s synsätt.
-- *Andra externa intressenter* och aktörer som har en yrkesmässig anledning i sin kontakt med VGR, exempelvis de som vill söka bidrag.
-- Andra *tekniska plattformar* som behöver åtkomst till information sök-miljön samlat på sig. Det kan bland annat vara att tipsa en anställd om internutbildning viktat på faktorer som geografisk närhet, kostnad och yrkesroll.
+I en enkät (Findwise, 2012) som vänt sig till kunskapsarbetare världen över var de tre vanligaste målen med svarandens sökfunktion att:
 
-Den största skillnaden mellan medborgare och anställda är att medborgare inte har, eller bör ha, anledning att förstå verksamhetens komplexitet eller struktur - de har ett informationsbehov och det bör räcka för att hitta fram.
+1. Snabba upp inhämtning av information från kända informationskällor.
+2. Förbättra återanvändningen av information och kunskap.
+3. Öka utsträckningen av samarbete genom att hitta personer med relevanta kunskaper.
 
-###Snabb introduktion till olika sökbeteenden###
-Grovt förenklat finns två kapaciteter som särskiljer användare av sök. Dels de som är **tekniskt bevandrade**, den andra är om de är **ämnesmässigt kunniga** på det ämne de eftersöker information kring.  
-Exemplifierat finns de som utan problem kan hantera all tänkbar teknisk utrustning och har lätt för att interagera med informationssystem. Den andra kapaciteten är om man har expertis eller djupt kunnande inom det de eftersöker. Man kan givetvis vara bra på bägge och (en *dubbelexpert*), men också vara nybörjare på bägge kapaciteterna (en *dubbelnovis*). Detta är viktigt eftersom det påverkar hur man söker efter information.
+Konkret innebär det att sökfunktionen ska tillföra verksamhetsnytta i följande scenarier:
 
-Tänk dig en allmänläkare, man kan förutsätta att denne kan tillräckligt mycket inom medicin för att kunna bedöma ett innehålls värde ganska snabbt. Den raka motsatsen är när samma läkare söker information denne inte kan något om, vilket skulle kunna handla om elektronik, förbränningsmotorer etc.  
-Samma synsätt kan man ha för om en användare känner sig kompetent att använda de tekniska verktyg som står till buds för att utföra en sökning. Det kanske handlar om ifall användaren förstår att använda filtreringsfunktioner och vad olika filformat kan tänkas betyda.
+1. En användare på webbplatsen utför en webbplatssökning i hopp om att hitta specifik information.
+2. En anställd (eller avtalad extern part?) söker inom det som uppfattas som ett intranät, det vill säga riktad information, publicerade dokument etc.
+3. En anställd behöver en översikt över vad flera informationskällor innehåller om ett visst ämne, källorna kan vara såväl interna som externa.
+4. När en applikations egna sök inte är ändamålsenlig ska organisationens sökfunktion ta dess plats.
+5. I de fall informationssystem behöver åtkomst till information som redan finns i sökfunktionens index, bland annat för att informationen i sökindexet kan vara i en förbättrad struktur än i originalkällan.
 
-Dubbelnoviser orienterar sig till synes förvirrat fram mot ett okänt mål. Dubbelexperter går direkt på målet.  
-En sökfunktion måste kunna stödja båda dessa extremer, särskilt med tanke på att samma person i ena stunden är dubbelexpert för att strax därefter inte ha en susning om ämnet hen eftersöker.
+## Användningskrav
 
-###Snabb intro till platser där sök kan användas###
-Både som sökruta men också som informationskälla (via API) till andra system. Jämför med Google Now och andra relevansstyrda "tips". Endast i fallet med en sökruta är det för användaren tydligt att det är sök det handlar om.
+Sökfunktionen skall vara det primära alternativet oavsett om användaren är expert eller novis på det denne eftersöker, oavsett om användaren är teknisk expert eller novis.
 
-###Snabb introduktion till relevansmodellen###
-Dessa är de typer av information vår sökmotor har med i sin bedömning om i vilken ordning träffarna ska visas - vad som är mest relevant till ställd sökfråga (i viktighetsordning):
+Sökfunktionen måste vara tillmötesgående för teknisk integration i andra informationssystem som följer pragmatisk standard på området - detta för att stödja andra system som inte själva klarar god sökfunktionalitet.
 
- - **Eventuella fullträffar** på diarienummer eller fält i annan verksamhetsspecifik datakälla. Det vill säga att en anställds användarnamn, ett telefonnummer, ärendenummer etc.
- - **Titel eller namn på dokument**, 
- - **Namnet på skaparen** av ett dokument.
- - **Nyckelord** - det vill säga de sökord som sammanfattar ett dokuments viktigaste begrepp eller kategoriseringar.
- - **Rubriker inne i ett dokument** och med rubriker menas de som markerats enligt formatmall som en rubrik.
- - **Beskrivningstext** vilket i klartext i all korthet sammanfattar innehållet i dokumentet i två-tre meningar.
- - **Dokumentets innehåll** - det vill säga brödtexten i ett dokument.
+För att beskriva användarna kan man dela upp dem i fyra grupper - i en kvadrant - efter hur insatta de är i ämnet de eftersöker, samt hur stor vana man har av teknik. Visualiserat:
+![Illustration inspirerat av boken _Designing the Search Experience_.](img/expert-novis.png)
 
-Utöver dessa är det vanligt att man har med träffar på synonymer till de sökord som använts, fonetisk sök för att få träffar på *Carlsson* vid sökning på *Karlsson* men kan också vara att man gjort bearbetning av text och gör en sökning på ords grundform.
+Sökfunktionen ska utgå från dubbelnovisens behov men erbjuda de funktioner dubbelexperter förväntar sig utan att det går ut över dubbelnovisens upplevelse. 
 
+Det gäller att i största möjligaste mån undvika att skapa nya specialiserade sökgränssnitt för att undvika förvirring bland användarna om vilken “sökmotor” man ska använda när.
 
-Behöver detta förklaras ytterligare eller exemplifieras?
+Exempel på egenskaper som skiljer ämnesexperter och ämnesnoviser åt är vilka ord de använder för att söka. Experten anser sig veta vad något heter och kan ha svårt att använda lekmannatermer. Vilket kräver att terminologin finns där som stöd för både expertens och lekmannens sätt att uttrycka sig.
 
-##Övergripande mål##
-Målet med sök är att det ska vara lätt att komma över den information man behöver, när man behöver den och på det sätt man behöver den.
+Exempel på saker som skiljer tekniska experter och tekniska noviser åt är att experten kan dra nytta av avancerade knep denne har lärt sig använda i andra tekniska miljöer, exempelvis att ställa invecklade sökfrågor eller aktivt styra acceptabel felstavning. Novisens behov behöver snarare mötas på ett introducerande och pedagogiskt sätt där denne inte överumplas av möjligheter på en gång, snarare får kontextuella tips när de är meningsfulla och nyttan är uppenbar.
 
-##Aktivitetsplan i det korta perspektivet##
+Exemplifiera med hur vi söker på Google (där är vi ofta noviser (pga att vi inte känner till alla källor som sökningen görs i?))
 
-###Förslag på aktiviteter år 1###
+De vanligaste användningsfallen för sökfunktionen är:
 
-####x. Upprätta rollen organisationsövergripande sökredaktör####
-Arbetsuppgifter... Verksamhetsperson...
+- Jag behöver hitta ett specifikt dokument
+- Jag behöver hitta specifik kompetens
+- Jag behöver snabbt bli expert på detta ämne
+- Jag behöver får reda på allt som vi vet om detta ämne
 
+## Nyckelpersoner
 
+Nedan identifierade grupper är de som har störst påverkan om sökfunktionen kontinuerliga förvaltning och utveckling ska ge förutsättningar för god verksamhet- och användarnytta.
 
+### De som fördelar budget
 
-###Förslag på aktiviteter år 2###
+Att driva en sökfunktion kräver löpande utveckling, arbete och justeringar för att leverera vad användarna förväntar sig. För att ha en konstant vidareutveckling för att möta föränderliga krav från användarna krävs att resurser finns tillgängliga att möta upp behoven.
 
-###Oprioriterad restlista av aktiviteter###
+### Innehållsskaparna
 
-####x. Sökanalys på bredden####
-Meddela skapare av information vilken av deras information som inte är särskilt sökbar på grund av SEO-faktorer. Kan bli lång lista...
+Alla som kan påverka det innehåll sökfunktionen jobbar med är i den primära gruppen av nyckelpersoner. Den enklast identifierade undergruppen är **webbredaktörer** som arbetar med innehållet på intranät och externa webbplatser
 
-Idag listas inte om det är extern sökare, vilket scope man befann sig i etc vilket gör det svårarbetat.
+En annan sådan grupp är alla **de som producerar dokument**, såsom ordbehandling, kalkyl eller presentationer, som är sökbart antingen från webbplatsernas uppladdningskatalog eller om dokumenthanteringssystemet indexeras av sökfunktionen.
 
-Utvärdera systemstöd för sökanalys. Troligtvis borde vi försöka hitta en standardprodukt för detta eller annat arbetssätt som är lättare för noviser att använda/omsätta till kunskap. 
+Denna grupp av nyckelpersoner behöver ha insikt i hur resultatet av deras arbete påverkar hur lyckosam sökfunktionen är.
 
-Exempel på leverantörer av sökanalysprodukter:
+### Innehållsvårdarna
 
-- [SSA](http://sematext.com/search-analytics/)?
+En sökfunktion har stort behov av en ordnad process för informatikarbete inom organisationen. Orsaken till det är att det är användarstyrt, på grund av att användaren väljer vilken sökfras som ska leverera ett bra resultat, vilket gör det till en mångfacetterad informationskälla (jämför med hur många “vyer” en användare av ett kalkylark har).
 
-####x. Utreda möjligheter och behov av svarsmotor####
-Erbjuda funktionalitet som inspirerats av Google Now, Wolfram Alpha och Knowledge Graph. En simpel början är att kunna söka upp definitionen av de termer verksamheten använder sig av (likt _define: term_).
+Sökfunktionen är beroende av att man jobbar med informatik - åtminstone i någon utsträckning - för att ämnesexperter ska kunna använda sin terminologi utan att utesluta relaterad information skapad av lekmän och vice versa.
 
-####x. Påbörja arbete med konsekvensbeskrivning av dokument vs webbsidor####
-Går det att få till en vettig relevansmodell när dokument och webbsidor har så olika förutsättningar till metadata-märkning.
+### De som stöttar sökfunktionen
 
-####x. Inventera externa källor att indexera####
-De externa platser där VGR bidrar med innehåll. Exempel på dessa är publikt tillgängliga sociala medier såsom Twitter, Instagram mfl.
+Denna grupp är av övrig karaktär men på inget sätt mindre viktig. För att inte huvudlöst ge sig i kast med teknikdrivna satsningar måste en **verksamhetsrepresentant** finnas för att styra aktivitetsplanens prioriteringar år för år. Denna aktivitetsplan ska sedan följas och händelser ska återrapporteras löpande.
 
-####x. Utvärdera möjligheten att boosta källor baserat på sökterm####
-Jobba med register över "aktiveringsord". Exempelvis en sökning på *blodgivning* på externa sökfunktionen kanske bör boosta källan geblod.nu?
+Den eller de som jobbar som **sökredaktör** behöver ha acceptans från linjechefer för sitt arbete att jobba med sökredaktionella uppgifter som att manuellt styra sökträffar/fullträffar, bättra på viktigt materials metadata, jobba med sökfunktionens hjälptexter med mera.
 
-Går detta att automatisera eller göras hanterbar i större skala över längre tid?
+Det har visat sig i undersökningar att sökfunktionen uppskattas mer om det finns **någon som svarar på användarfrågor** och kanaliserar synpunkter, detta behöver med andra ord finnas och formaliseras så det blir utfört i skälig tid.
 
-####x. Utvärdera hur väl accepterat metadata-märkning är bland innehållsskapare####
-Kan behöva göras en intern marknadsföringskampanj som förklarar poängen med att ange en minimi-nivå av metadata. "Därför är det ditt fel att sök suger... :)"
+För att ha en bra teknisk tillgänglighet behövs en engagerad **teknisk support** för att aktiv IT-drift och servervård.
 
-####x. Utvärdera krav på informationssystem för tillräcklig metadata-märkning####
-Är det enkelt att göra rätt i dokumenthanteringssystemet? Bör relevansen vara relativ efter respektive systems motsträvighet till att hjälpa användaren metadata-märka dvs ska ett nyckelord i ett jobbigt system vara mer värt än ett i ett system där det är simpel?
+## Förvaltning (Governance)
 
-####x. Sök-scopes vara eller icke-vara####
-Hur ska man jobba med de scope (avgränsande organisatoriska filter) som idag används frekvent? Ett förslag har varit att helt ta bort scope, ett annat att baserat på första träffens relevans matcha mot träffar utanför scope.
+Hur bemannas sökfunktion. 
 
-Sätt att göra det tydligare vad en sökning inom ett scope innebär för användaren är att skriva ut det i klartext i sökfunktionen, exempelvis:  
-"Du söker nu enbart inom *din organisatoriska enhet*. Klicka här för att utvidga din sökning till hela organisationen >>".  
-Utöver det kan man fundera på att i sökresultatet ha en varning för om man utanför scopet har ett, enligt sökmotorns relevansmodell, väsentligt mycket mer relevant träff/resultat än det som hör hemma inom scopet.
+Roller. 
 
-####x. Arbeta med frassökning, stoppord och synonym-hantering####
+Kompetenser. 
 
+Minimum och långsiktigt.
 
-####x. Utvärdera keymatches i sökresultatet####
-Finns bättre lösning? MDM/Knowledge Graph/Termlista om plats finns & relevans är hög nog?
+## Innehåll
 
-####x. Modernt användargränssnitt####
-Det som möter en användare _måste_ idag fungera i en mobiltelefon och vara anpassat för pekskärm som inmatningsmetod.
+Livscykelhantering av innehåll?
 
-####x. Utreda möjligheter till personaliserat sök####
-Finns behov till ett personaliserat sök och vad är i så fall viktigast att fixa först? Behöver hantera att användaren inte ska hamna i någon filterbubbla.  
-En förutsättning för detta är att veta lite mer om vem den sökande är. På externa webben (om vi väljer att använda det även där) finns indikationer som geografisk plats och beteendedata, internt kan vi ofta komplettera samma uppgifter med eventuell inloggning tillsammans med koppling till medarbetarregister.
+Strategiskt viktiga innehållskällor? 
 
-Exempel på användningsområden är att relevansstyra interna jobbannonser så de kan riktas till rätt medarbetare. Vad som är "rätt" blir en mix av den information som finns tillgänglig både om den anställde och om utannonserad tjänst. Bland annat är det tänkbart att åtminstone yrkestitel, typ av anställning, geografisk plats bör ingå i övervägandet.
+Mappa mot rubrik Användningskrav
 
-####x. Se över kriterier för att indexera datakälla####
-Vilka kriterier talar för och vilka talar emot? Data-discovery...
+Kunskapshantering
 
-####x. Utreda möjligheterna till bättre metadata-hantering####
-RDFa bland annat.
+## Metadata och taxonomier
 
-####x. Utreda möjligheten till testbarhet inom relevansmodell####
-Går det att förutse påverkan på sökresultat baserat på ett antal sökpersonas, 1000 vanligaste söktermerna eller liknande?
+Standardiserad metadata. 
 
-####x. Utreda inloggat sök = att man söker i skyddade informationskällor####
-Att sök ska kunna ikläda sig användarens behörighet. 
+Fastställda vokabulär/taxonomier?
 
-Utmaningar relaterat till detta är så kallad single sign-on, alltså hur sökmotorn ska veta vem den sökande användaren är och eventuellt "översätta" mellan sökanvändarens behörighet och vad källsystemet vet om den personen. Monokultur är i detta sammanhang en underlättande faktor.
+## Federerat sök
 
-####x. Hur använda webbstatistik som indata i relevansmodellen?####
+Skrivbordssök och källor som ej får indexeras (exempelvis köpta tidskriftsdatabaser)
 
+## Granskning av sökfunktionen
 
-####x. Kan webbstatistik stå som källa för URL:ar att indexera?####
-Tyder ju på att det finns användning och om crawlern ska bli mer "demokratisk" och indexera det medarbetarna faktiskt tar del av så...  
-Vara ok för urlar likt *.vgregion.se/* och frågan är om det går att peka ut externa på något automatiserat sätt? I annat fall kan man säkert via IT-organisationen med jämna mellanrum komma över en aktuell lista med vanligast besökta externa webbplatser och välja att indexera de som är betrodda.
+Inkluderar prestandakrav och test. 
 
-Anledningen till varför man skulle vilja indexera externa källor kan vara något svag. Det som väger tyngst är nog att det inte är logiskt att arbetsgivarens sökmotor inte har räckvidd till merparten av det som gäller de anställdas sökbehov. Gränsdragningen är inte lika självklar för en som är tekniskt ointresserad som för vissa andra.
+Upptid.
 
-##Ansvar och genomförande##
-Under förutsättning att budget tilldelas kommer sökstrategins förverkligande drivas av *Objektet för kommunikation via webbtjänster* i samarbete med andra intressenter.
+Svarstider över tid.
 
-##Utestående relaterade frågor##
-Denna strategi har beroenden till bland annat följande:
+Google pagespeed - att sökfunktionen lever upp till satta mål (se rubriken användbarhet).
 
-- Digital livscykelhantering för information (dvs hur man får användare att metadata-märka korrekt, välja rätt format, arkivera samt ibland återanvända).
-- PSI-data, öppna data och länkade data.
-- "Big data", ostrukturerade data.
-- IT-produktstrategi i den mån IT:s beslut påverkar verksamheten i form av tekniska plattformar.
+Indexstorlek.
 
-Inspirationskällor:
+Insamlingsproblem?
 
-- [Intranet Focus: Developing an enterprise search strategy](http://www.intranetfocus.com/wp-content/uploads/Enterprise-Search-Strategy.pdf)
-- [Findwise: Enterprise Search and Findability Survey 2014](http://www.slideshare.net/findwise/mattias-enterprise-search-and-findability-survey-2014-findability-day-2014) [[beställ rapporten](http://www2.findwise.com/findabilitysurvey2014)]
-- [Designing The Search Experience - The Information Architecture of Discovery](http://designingthesearchexperience.com)
+Hur mår sökindex? Sökanalys!
+
+## Infrastruktur för sökfunktionen
+
+Kort beskrivning av strategiskt plattformsval.
+
+Stödjande tjänster (exemplevis taxonomihantering, AD)
+
+Är sökfunktionen en strategisk tjänst för verksamhet?
+
+Outsource-at eller in-house? 
+
+## Haveriberedskap
+
+Hur hantera sökfunktionen vid en kris? 
+
+Vad är söks roll när man är i ett krisscenario.
+
+## Säkerhet
+
+(Inloggat sök, mappning, ACL)
+
+## Helpdesk och support
+
+Hur fungerar support?
+
+1, 2 och 3 linjens support
+
+Koppla till rubriken Förvaltning.
+
+## Användbarhet och tillgänglighet
+
+För att säkerställa god tillgänglighet och upplevd användbarhet ska sökfunktionens användargränssnitt leva upp till tillgänglighetsriktlinjen WCAG 2.0 och som allra lägst nivå AA. Utöver det ska användargränssnitt allra minst följa prio 1 av E-delegations webbriktlinjer.se samt aldrig medvetet avvika från prio 2.
+
+Designprincip att följa är mobile first då de som ansluter från en mobil enhet inte ska få en sämre upplevelse.
+
+I de fall sökfunktionen lyfter fram eller presenterar strukturerad data skall den också rent tekniskt lämnas ut strukturerad, exempelvis att de informationstyper som beskrivs av Schema.org märks upp i sökgränssnittet med adekvat nivå av struktur.
+
+Ytterst god prestanda måste levereras till användaren. Mätt enligt Google PageSpeed Insights ska det ur ett mobilt användarscenario aldrig vara under 80 av 100, samt för skrivbordsdatorer aldrig under 85 av 100, om inte annat hårdare krav finns inom organisationen.
+
+## Utbildning
+
+Vem behöver utbildas? Novis/expert?
+
+Hur ordnas utbildning för:
+
+- De som använder sök (inline i själva söktjänsten med guidade lägen så man “övar” in det medan man läser, samt länkar till längre dokumentationer för det fåtalet som är intresserade)
+- De som föder sök med innehåll (behövs anpassade användarstöd att kommunicera ut till de som skapar material som i förlängningen blir sökbart)
+
+Online, klassrum? Demo?
