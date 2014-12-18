@@ -44,7 +44,7 @@ Sökredaktören har troligtvis primärt en kommunikativ bakgrund, möjligen med 
 
 Bland arbetsuppgifterna finns att förbättra viktigt materials sökbarhet (bearbeta dess metadata exempelvis), bistå med råd till kommunikatörer, handha eventuell keymatches/fullträffar och kontinuerligt jobba med kopplingar till eventuella externa system med masterdata/referensdata.
 
-### 2. Vi behöver förstå vad användarna söker efter och hur de söker
+### 2. Vi behöver förstå vad användarna söker efter och hur de söker, det vill säga kunna göra sökanalys
 
 Dels går denna aktivitet ut på att se över sökanalysarbetet (se mer info i Appendix) men också att se om det ens finns något att visa upp som matchar ställd sökfras.
 
@@ -83,7 +83,7 @@ Jobba med register över "aktiveringsord". Exempelvis en sökning på *blodgivni
 
 Går detta att automatisera eller göras hanterbar i större skala över längre tid?
 
-### 7. De som fyller sökmotorn med innehåll skulle kunna göra ett bättre jobb med sin metadata
+### 7. De som fyller sökmotorn med innehåll skulle behöva hjälp med sin metadata
 
 Behöver det göras en intern marknadsföringskampanj som förklarar poängen med att ange en minimi-nivå av metadata och hur man går tillväga? "Därför är det ditt fel att sök suger... :)"
 
