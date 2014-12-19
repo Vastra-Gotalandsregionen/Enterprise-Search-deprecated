@@ -8,60 +8,57 @@ Detta material har tagits fram av [Västra Götalandsregionen (VGR)](http://www.
 
 ## Våra aktiviteter - 2015
 
-_Klistra in valda aktiviteter, lägg till ansvarig, eventuell kostnad och vilket kvartal aktiviteten förväntas vara utförd._ 
-
-_Exempel:_  
-**_x. Vi har behov av att_** **_….._**  
-_Beskrivningstext._  
-_Ansvarig_ _för punkten: Namn_ _Namnsson_  
-_Kostnad: Enbart arbetstid_  
-_Svarar mot verksamhetsmål: Underlätta för nyanställda att komma igång._  
-_Förväntas vara färdigt: Q3, år 1_
-
-
-
 ### 1. Vi har behov av en organisationsövergripande sökredaktör
-
+Ansvarig för punkten: Marcus Österberg  
+Förväntas vara färdigt: Q1 2015  
 Antecknat: Meddela den det berör i organisationen.
 
 ### 2. Vi behöver förstå vad användarna söker efter och hur de söker, det vill säga kunna göra sökanalys
-
-
+Ansvarig för punkten: Marcus Österberg  
+Förväntas vara färdigt: Q4 2015  
+Antecknat: Utvärdera standardprodukter.  
 
 ### 4. Vi upplever att dokument och webbsidor inte riktigt är jämnbördiga i sökresultatet
-
+Ansvarig för punkten: Evelyn Stolfer  
+Förväntas vara färdigt: Q2? 2015  
 Antecknat: Vilka källor, genomgång av relevansmodell.
 
-
 ### 5. Det finns externa informationskällor vi borde ha i vår interna sökfunktion
-
-
+Ansvarig för punkten: Evelyn Stolfer  
+Förväntas vara färdigt: Q3 2015  
+Antecknat: Vårdhandboken har varit på tal bl.a. 
 
 ### 6. Ibland är vissa källor lite mer relevanta än andra
-
-
+Ansvarig för punkten: Evelyn Stolfer  
+Förväntas vara färdigt: Q3 2015  
+Antecknat: Vårdhandboken har varit på tal bl.a. 
 
 ### 7. De som fyller sökmotorn med innehåll skulle behöva hjälp med sin metadata
-
+Ansvarig för punkten: Marcus Österberg  
+Förväntas vara färdigt: Q3 2015  
+Antecknat: Kolla EPiServer 7 etc. 
 
 
 ### 8. Våra system ställer för låga krav på den metadata man som användare tvingas ange
-
-
+Ansvarig för punkten: Evelyn Stolfer  
+Förväntas vara färdigt: Q2 2015  
+Antecknat: Ta fram ett förslag på minsta mängd metadata och koppling mot exempelvis extern metadata-server för verifiering.
 
 ### 9. Användarna söker inom ett filter utan att veta om vad de möjligen missar
-
-
+Ansvarig för punkten: Marcus Österberg  
+Förväntas vara färdigt: Q2 2015  
 
 ### 10. Sökfunktionen tycks inte förstå min sökfras
-
-
+Ansvarig för punkten: Evelyn Stolfer  
+Förväntas vara färdigt: Q4 2015  
+Antecknat: Börja med just frassökning.
 
 ## Våra aktiviteter - 2016
 
 ### 3. Borde inte sökfunktionen kunna ge svar på frågor ibland - inte bara tala om vad som eventuellt är relevant?
-
-
+Ansvarig för punkten: Marcus Österberg  
+Förväntas vara färdigt: Q1 2016  
+Antecknat: Utreda vilken verksamhetsnytta som finns i att komplettera vanliga sökfunktionen med svarsmotorfunktionalitet likt [Wolfram|Alpha](http://www.wolframalpha.com/input/?i=v%C3%A4stra+g%C3%B6taland) mfl.
 
 ## Våra aktiviteter - 2017
 
