@@ -18,7 +18,6 @@ Detta är en strategi för **verksamhetssök**, det vill säga de verktyg och sy
 - Med “rätt information” avses information som är korrekt, giltig samt relevant.
 - Med “när den behövs” avses att informationen når användaren i den arbetssituation och den kontext användaren befinner sig på med det verktyg som finns tillhanda (dator, mobil mm)
 
-
 ## Verksamhetsmål
 
 Främsta användningsområde för en organisations interna sökfunktion är att hjälpa till med att hitta information och kunskap när det för användaren inte är uppenbart var den finns, eller att den finns. 
@@ -60,11 +59,11 @@ Exempel på egenskaper som skiljer ämnesexperter och ämnesnoviser åt är vilk
 
 Exempel på saker som skiljer användare baserade på deras digitala mognad är att experten kan dra nytta av avancerade knep denne har lärt sig använda i andra tekniska miljöer, exempelvis att ställa invecklade sökfrågor eller aktivt styra acceptabel felstavning. Novisens behov behöver snarare mötas på ett introducerande och pedagogiskt sätt där denne inte överrumplas av många möjligheter på en gång, snarare får kontextuella tips när de är meningsfulla och nyttan är uppenbar.
 
-###Fyra tillstånd att söka efter information
+### Fyra tillstånd att söka efter information
 
 1. **Känd kunskap.** Att söka efter redan känd kunskap är enkelt att förstå, eftersom användaren:  
-1.1. Vet vad den vill ha  
-1.2. Kan uttrycka det den vill ha  
+1.1. Vet vad den vill ha.  
+1.2. Kan uttrycka det den vill ha.  
 1.3. Har en idé om var den ska börja leta
 2. **Utforskande.** I detta tillstånd har användaren en idé om vad den vill veta. Men användaren kan ha svårt att uttrycka det, eller kan inte rätt begrepp. Användaren vet ofta när den har hittar rätt, men har ingen kunskap om mängden information är tillräcklig. 
 3. **Vet inte vad.** Nyckelkonceptet bakom detta tillstånd är att användare ofta inte vet exakt vad de behöver veta. De kan tro att de behöver veta en sak, när det i själva verket är något annat, eller så besöker de en informationskälla utan något specifikt syfte. 
@@ -77,7 +76,7 @@ De generellt vanligast förekommande användningsfallen för en sökfunktion är
 - snabbt bli expert på ett ämne
 - få reda på allt som organisationen vet om ett ämne
 
-## Användbarhet och tillgänglighet
+### Användbarhet och tillgänglighet
 
 För att säkerställa god tillgänglighet och upplevd användbarhet ska sökfunktionens användargränssnitt leva upp till tillgänglighetsriktlinjen WCAG 2.0 som **allra lägst nivå AA**. Utöver det ska användargränssnitt **allra minst följa prio 1** av [webbriktlinjer.se](http://webbriktlinjer.se/) samt aldrig medvetet avvika från prio 2.
 
@@ -85,21 +84,21 @@ Designprincip att följa är **mobile first** då de som ansluter från en mobil
 
 I de fall sökfunktionen lyfter fram eller presenterar strukturerad data skall den också rent tekniskt lämnas ut strukturerad, exempelvis att de informationstyper som beskrivs av [schema.org](https://schema.org/) märks upp i sökgränssnittet med adekvat nivå av struktur.
 
-Ytterst god prestanda måste levereras till användaren. Mätt enligt [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) ska det ur ett mobilt användarscenario **aldrig vara lägre** **än 80 av 100**, samt för skrivbordsdatorer **aldrig under 85 av 100**, om inte annat strängare krav finns inom organisationen.
+Ytterst god prestanda måste levereras till användaren. Mätt enligt [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) ska det ur ett mobilt användarscenario **aldrig vara lägre än 80 av 100**, samt för skrivbordsdatorer **aldrig under 85 av 100**, om inte annat strängare krav finns inom organisationen.
 
 ## Förvaltning
 
 ...
 
-## Nyckelpersoner
+### Nyckelpersoner
 
 Nedan identifierade grupper är de som har störst påverkan på sökfunktionens kontinuerliga förvaltning och om utvecklingen ska ge förutsättningar för god verksamhets- och användarnytta.
 
-### De som fördelar budget
+#### De som fördelar budget
 
 Att driva en sökfunktion kräver löpande utveckling, arbete och justeringar för att leverera vad användarna förväntar sig. För att ha en konstant vidareutveckling för att möta föränderliga krav från användarna krävs att resurser finns tillgängliga att möta upp behoven.
 
-### Innehållsskaparna
+#### Innehållsskaparna
 
 Alla som kan påverka det innehåll sökfunktionen jobbar med är i den primära gruppen av nyckelpersoner. Den enklast identifierade undergruppen är webbredaktörer som arbetar med innehållet på intranät och externa webbplatser
 
@@ -107,13 +106,13 @@ En annan sådan grupp är alla de som producerar dokument, såsom ordbehandling,
 
 Denna grupp av nyckelpersoner behöver ha insikt i hur resultatet av deras arbete påverkar hur lyckosam sökfunktionen är.
 
-### Innehållsvårdarna
+#### Innehållsvårdarna
 
 En sökfunktion har stort behov av en ordnad process för informatikarbete inom organisationen. Orsaken till det är att det är användarstyrt, på grund av att användaren väljer vilken sökfras som ska leverera ett bra resultat, vilket gör det till en mångfacetterad informationskälla (jämför med hur många “vyer” en användare av ett kalkylark har).
 
 Sökfunktionen är beroende av att man jobbar med informatik - åtminstone i någon utsträckning - för att ämnesexperter ska kunna använda sin terminologi utan att utesluta relaterad information skapad av lekmän och vice versa.
 
-### De som stöttar sökfunktionen
+#### De som stöttar sökfunktionen
 
 Denna grupp är av övrig karaktär men på inget sätt mindre viktig. För att inte huvudlöst ge sig i kast med teknikdrivna satsningar måste en verksamhetsrepresentant (sökansvarig) finnas för att styra aktivitetsplanens prioriteringar år för år. Koppla aktivitetsplanen till budget och leveranskvalitet. Det ska vara tydligt vilken nytta som gjorts.
 
@@ -125,11 +124,11 @@ Det har visat sig i undersökningar att sökfunktionen uppskattas mer om det fin
 
 För att ha en bra teknisk tillgänglighet behövs en engagerad teknisk support för att aktiv IT-drift och servervård ska fungera tillfredsställande.
 
-## Organisation
+### Organisation
 
-Den viktigaste åtgärd en organisation kan göra för att förbättra sin sökfunktion är att utse en sökansvarig. Det är ett absolut minimumkrav.
+Den viktigaste åtgärd en organisation kan göra för att förbättra sin sökfunktion är att utse en sökansvarig! Det är ett absolut minimumkrav.
 
-Det innebär att en sökansvarig måste ha tid avsatt för att arbeta med sökfunktionen. Det är bättre med ett par timmar i veckan än ingen tid. Och ännu viktigare: **att arbeta med sök är ett ihållande långsiktigt arbete** _inte_ ett projekt.
+Det innebär att en sökansvarig måste ha tid avsatt för att arbeta med sökfunktionen. Det är bättre med ett par timmar i veckan än ingen tid. Och ännu viktigare: **att arbeta med sök är ett ihållande långsiktigt arbete** INTE ett projekt.
 
 Rollerna och kompetenserna i en förvaltning bör bestå av:
 
@@ -145,13 +144,13 @@ Fördjupning: [Enterprise Search Team Management](http://www.intranetfocus.com/w
 
 En sökfunktion ska leverera rätt information, vara snabb och alltid finnas tillgänglig. För att tillgodose dessa krav ska sökfunktionen regelbundet testas och testerna ska dokumenteras i testplaner. Nedan några av testerna som är lämpliga:
 
-- Sökfunktionen laddas snabbt, testas med [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/), minimum 80/100 (Se även användningskrav)
-- Svarstiden för en sökfråga bör vara runt [0.1 sekund, men aldrig längre än 1 sekund](http://www.nngroup.com/articles/website-response-times/). Se
-- Sökfunktionen ska vara tillgänglig 24/7 (dygnet runt alla veckans dagar). Övervakas med t.ex [Uptimetobot](http://uptimerobot.com).)
-- Storlek på sökindex (indexeras fler eller färre dokument?).
-- Sökfunktionen är tekniskt tillgänglig, testas med [W3C Validator](http://validator.w3.org/). (Se även användningskrav)
+- Sökfunktionen laddas snabbt, testas med [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/), minimum 80/100 ([Se även användningskrav]())
+- Svarstiden för en sökfråga bör vara runt [0.1 sekund, men aldrig längre än 1 sekund](http://www.nngroup.com/articles/website-response-times/).
+- Sökfunktionen ska vara tillgänglig 24/7 (dygnet runt alla veckans dagar). Övervakas med t.ex [Uptimetobot](http://uptimerobot.com).
+- Storlek på sökindex. Bland annat för att se om det indexeras fler eller färre dokument, något som kan ge varningssignaler på att allt inte står rätt till.
+- Sökfunktionen är tekniskt tillgänglig, testas med [W3C Validator](http://validator.w3.org/). ([Se även användningskrav]())
 - Sökfunktionen är tillgänglig enligt användbarhetskrav, testas mot [webbriktlinjer.se](http://webbriktlinjer.se/testa-din-webbplats/)
-- Söknöjdhet, mätning med enkät ([Se exempel](https://sv.surveymonkey.com/r/soknojdhetsindex)[ på enkät](https://sv.surveymonkey.com/r/soknojdhetsindex) för söknöjdhetsindex)
+- Söknöjdhet, mätning med enkät. ([Se exempel](https://sv.surveymonkey.com/r/soknojdhetsindex)[ på enkät](https://sv.surveymonkey.com/r/soknojdhetsindex) för söknöjdhetsindex).
 
 ### Sökanalys
 
@@ -163,7 +162,7 @@ De tvåhundra vanligaste sökningarna behöver löpande granskas manuellt för a
 
 ## Helpdesk och support
 
-Användarsupport (1:a och 2:a linjens support) bör hanteras direkt av sökredaktör och sökansvarig.Anledningen till detta är att ge sökförvaltningen direktkontakt med användarna och därigenom få en bättre förståelse för vad som fungerar och inte fungerar. Användarna ska kunna direktrapportera problem med sökfunktionen, sökresultat osv genom ett återkopplingsformulär i anknytning till sökfunktionen.
+Användarsupport (1:a och 2:a linjens support) bör hanteras direkt av sökredaktör och sökansvarig.Anledningen till detta är att ge sökförvaltningen direktkontakt med användarna och därigenom få en bättre förståelse för vad som fungerar och inte fungerar. Användarna ska kunna direktrapportera upplevda problem med sökfunktionen och sökresultat genom ett återkopplingsformulär i anslutning till sökfunktionen.
 
 Den tekniska supporten hanteras som alla andra system.
 
@@ -219,7 +218,7 @@ Design är viktigt. Speciellt i dag då de flesta refererar till Google som utg�
 
 När en insats påverkar sökfunktionens design ska användbarhetsperspektivet ha sista ordet i hur utformningen blir.
 
-Hänvisning till designprototyp.
+[Exempel på en designprototyp skapad för VGR kan du hitta här](https://code.google.com/p/oppna-program-search-gui/).
 
 ## Teknik
 
@@ -229,17 +228,21 @@ Den tekniska plattformen för sök är en mycket viktig del av en väl fungerand
 
 Den tekniska infrastrukturen för sök kan inte endast bestå av en sökplattform utan måste även ha en väl fungerande integration av stödjande tjänster, åtminstone följande:
 
-- **Centraliserad metadatahantering** som stödjer användarnas språkbruk - oavsett om det är lekmannabegrepp eller ej - för att binda samman expertens språk med novisens. Utöver detta behöver man hantera den ostrukturerade och mer snabbrörliga begreppsvärlden genom en ordnad folksonomi och möjligen koppla det mot etablerade kontrollerade vokabulär för att överbrygga klyftorna mellan olika användare.Denna hantering bör också erbjuda stöd till andra informationssystem, eller direkt till innehållsskaparen, för att ge aktuell återkoppling på hur sökbar information kommer bli när den väl publiceras.
+- **Centraliserad metadatahantering** som stödjer användarnas språkbruk - oavsett om det är lekmannabegrepp eller ej - för att binda samman expertens språk med novisens. Utöver detta behöver man hantera den ostrukturerade och mer snabbrörliga begreppsvärlden genom en ordnad [folksonomi](https://sv.wikipedia.org/wiki/Folksonomi) och möjligen koppla det mot etablerade kontrollerade vokabulär för att överbrygga klyftorna mellan olika användare.Denna hantering bör också erbjuda stöd till andra informationssystem, eller direkt till innehållsskaparen, för att ge aktuell återkoppling på hur sökbar information kommer bli när den väl publiceras.
 - **Master Data Management (MDM)**, **Product Information Management (PIM)** och **referensdata** för att kunna skilja ut verksamhetens fysiska och digitala ting ur den övriga massan av sökbar information.
 - **Katalogtjänster** för att hitta personer, delar av organisationen eller andra frekvent använda kataloguppgifter interna såväl som externa. Mest uppenbar är att sökfunktionen bör kunna sammanställa en komplett profil över var och en som är anställd oavsett om informationen är utspridd i många specialiserade system.
 
 ### Insamling av information till sökfunktionen
 
-Vid val av strategisk plattform för sök är utbudet av insamlare en av de viktigaste faktorerna. Frågan att ställa är: finns det insamlare för organisationens viktigaste informationskällor?
+Vid val av strategisk plattform för sök är utbudet av insamlare en av de viktigaste faktorerna. Frågan att ställa är: finns det insamlare för organisationens viktigaste informationskällor? Insamling är resurskrävande och att konfigurera och utveckla insamlare kan bli både kostsamt och svårt.
 
-En av de viktigaste funktionerna, som oftast är resurskrävande, är att konfigurera och utveckla insamlare (även kallat agenter, konnektorer, spindlar, robotar). En insamlares uppgift är att samla in information från informationskällor till sökfunktionen. Varje insamlare är kopplad till en specifik typ av informationskälla, exempelvis databaser (olika insamlare för olika databastyper), filsystem, webb, system osv. 
+En insamlares uppgift är att samla in information från informationskällor till sökfunktionen. Varje insamlare är kopplad till en specifik typ av informationskälla, exempelvis databaser (olika insamlare för olika databastyper), filsystem, webb, system osv. 
 
-Även push/pull indexering bör det skrivas ett stycke om!
+Att samla in information till sökfunktionens index genom insamlare besöker informationskällan och kollar om något har ändrats eller tillkommit kallas för pull-driven indexering. Nackdelen med denna typ av indexering är att det tar längre tid innan nyligen publicerad information är sökbar.
+
+Insamling av information till sökfunktionens index kan också ske genom att informationskällan meddelar sökfunktionen om att information har ändrats eller tillkommit. Så kallad push-driven indexering. Fördelen med push-drive indexering är att nyligen information snabbt blir sökbar. Kan vara svårt att implementera.
+
+En bra kompromiss är att informationskällan skapar en sitemap, enligt [sitemap-protokollet](http://www.sitemaps.org). Sökfunktionen får genom sitemapen reda på vad som ska indexeras och då behöver inte insamlaren besöka all information för att få reda på om det finns något nytt eller ändrat. 
 
 ### Federerat sök - sökning i flera olika sökfunktioner samtidigt
 
@@ -259,9 +262,3 @@ Att kunna söka i behörighetsstyrt material är viktigt! Det finns två olika h
 Oavsett vilken av principerna som väljs bör behörighetssystemet i organisationens alla informationssystem vara baserat på samma katalogtjänst. Och alla roller vara beskrivna på samma sätt i alla informationssystem. Anledningen är att dokumenten behöver åtföljas av en åtkomstkontroll-lista (ACL) som styr behörighet till information annars blir åtkomstkontrollen för komplicerad att implementera.
 
 Om inte en gemensam katalogtjänst finns är rekommendation är att avstå från att indexera behörighetsstyrd information tills dess användarnas behörigheter och roller finns.
-
-## Haveriberedskap
-
-Hur hantera sökfunktionen vid en kris? 
-
-Vad är söks roll när man är i ett krisscenario.
