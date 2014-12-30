@@ -88,7 +88,7 @@ Ytterst god prestanda måste levereras till användaren. Mätt enligt [Google Pa
 
 ## Förvaltning
 
-...
+Förvaltningen av sökfunktionen är viktigt och är, genom att sökfunktionen ofta betraktas som allas och ingens bekymmer, inte helt enkel att hantera. Att hantera en sökfunktione kräver en rad olika kompetenser vilket inte gör det hela enklare, Här följer de strategiskt viktigaste i en förvaltning.
 
 ### Nyckelpersoner
 
