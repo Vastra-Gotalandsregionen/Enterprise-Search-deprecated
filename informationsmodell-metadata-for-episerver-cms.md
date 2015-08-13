@@ -71,7 +71,7 @@ En webbsida är en sammanställning av en eller flera block/komponenter.
 
 Obligatoriska fält:
 
-- Minst 1 nyckelord ska anges. Antingen författarens egna (folksonomi) men allra helst ett nyckelord från metadata-tjänsten/Apelon. Behöver stöd av flera vokabulär än MeSH, ICD och SnoMed-CT för all övrig verksamhet. ÄÖven geografiska platser behöver hanteras, kanske plocka in GeoNames?
+- Minst 1 nyckelord ska anges. Antingen författarens egna (folksonomi) men allra helst ett nyckelord från metadata-tjänsten/Apelon. Behöver stöd av flera vokabulär än MeSH, ICD och SnoMed-CT för all övrig verksamhet. Även geografiska platser behöver hanteras, kanske plocka in GeoNames?
 - **(DC.date.validto)** Gallring/förväntad livslängd - för att instruera arkiveringsrutinen. Samma fält som Epi har idag, “Sluta publicera-datum”.
 - Titel och alternativ titel. En valfri version och en mycket kort version som strävar mot att få plats i flikar i webbläsaren bland annat.
 - Beskrivning av webbsidan. En med valfri längd och en som är mellan 80-160 tecken lång.
