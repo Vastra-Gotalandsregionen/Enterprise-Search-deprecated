@@ -348,6 +348,10 @@ Det finns ett formulär på sökfunktionen/sökresultatsidan där användarna ka
 
 Hur väl stödjer sökfunktionen medarbetarnas behov av personsök? Saknas relationer mellan olika källor för att koppla individ med kompetens? Går det att kompletter, dvs vad ska vara sökbart.
 
+### 51. Låta användarna ge förslag på uppgifter
+![Exempel från hitta.se](img/exempel-hitta-komplettera-med-info.png)
+Användare av sökmotorn borde kunna komplettera med uppgifter, särskilt när sökmotorn ger ett nollresultat och användaren själv kan sitta på lite information - exempelvis att söktermen är ett mobilnummer, som ringt upp en person vid ett datum, att det var ett säljsamtal.
+
 Bubblare:
 
 - få bort dokument utan innehåll eller med extremt lite unikt innehåll
