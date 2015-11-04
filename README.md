@@ -11,4 +11,4 @@ Här hittar du vår öppna dokumentation som har med vårt arbete med sökmotore
 Dokumentation skrivs i formatet [Markdown](http://en.wikipedia.org/wiki/Markdown) dels för att det är normen på Github men också för att det är ett fritt format som fokuserar på innehållet och kan konverteras till många andra format.
 
 ## Mer under Öppna program
-För att ta del av [VGR:s samlade dokumentation, öppna källkod-projekt och mycket mer går du till **Öppna Program** på Google Code](https://code.google.com/p/oppna-program/).
+För att ta del av [VGR:s samlade dokumentation, öppna källkod-projekt och mycket mer går du till **Öppna Program** på Github](http://vastra-gotalandsregionen.github.io/oppna-program/).
