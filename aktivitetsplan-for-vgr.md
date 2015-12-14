@@ -6,6 +6,28 @@ Detta dokument är de aktiviteter Västra Götalandsregionen har för avsikt att
 
 Detta material har tagits fram av [Västra Götalandsregionen (VGR)](http://www.vgregion.se/) i samarbete med flertalet andra offentliga aktörer. Det är inte att betrakta som färdigt. Vi sprider sådan här information för att samverka med externa intressenter. Materialet går under licensen [CC-BY-SA](https://creativecommons.org/licenses/by-sa/3.0/) vilket bland annat medger vidareanvändning.
 
+## Våra aktiviteter - 2016
+
+### Inspel från intranät-projektet
+Här kan det tillkomma punkter beroende på uttolkning av intranätprojektets respektive medskick.
+
+####2016.1 "Hitta medarbetare"
+Följa prioriteringar och värderingar för intranätprojektet. Bland annat att denna personsök ska vara en sammanställning av flera källor, vissa etablerade regulatoriska (HSA/KiV) och andra mer av självservice-karaktär (social personprofil på intranätet).
+
+#### 2016.2 Sök- och webbanalys
+Påbörja aktiv sök- och webbanalys och ta fram användarstöd. Inrätta funktioner för sökredaktör och community manager (ansvarig för samarbetsytor och sociala kanaler). 
+
+#### 2016.3 Komma igång med löpande uppföljning inom sök
+Etablera modell för användbarhetstester av sökfunktionen (personsök och övriga).
+
+#### 2016.4 Utbildningsmaterial till redaktörer och andra
+En övergripande handbok är planerad, där bör det ingå en intro till gott innehållsarbete ur en sökmotors perspektiv, samt den dos sökanalys alla bör känna till.
+
+### Vanliga sökförvaltningens punkter
+Efter söksamtal 16:e december prioriterades följande aktiviteter för 2016.
+
+
+
 ## Våra aktiviteter - 2015
 
 ### 1. Vi har behov av en organisationsövergripande sökredaktör

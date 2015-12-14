@@ -15,7 +15,7 @@ När du gått igenom hela listan är det dags att prioritera in de viktigaste un
 _Klistra in valda aktiviteter, lägg till ansvarig, eventuell kostnad och vilket kvartal aktiviteten förväntas vara utförd._ 
 
 _Exempel:_  
-**_x. Vi har behov av att_** **_….._**  
+**_x. Vi har behov av att….._**  
 _Beskrivningstext._  
 _Ansvarig_ _för punkten: Namn_ _Namnsson_  
 _Kostnad: Enbart arbetstid_  
@@ -352,7 +352,23 @@ Hur väl stödjer sökfunktionen medarbetarnas behov av personsök? Saknas relat
 ![Exempel från hitta.se](img/exempel-hitta-komplettera-med-info.png)
 Användare av sökmotorn borde kunna komplettera med uppgifter, särskilt när sökmotorn ger ett nollresultat och användaren själv kan sitta på lite information - exempelvis att söktermen är ett mobilnummer, som ringt upp en person vid ett datum, att det var ett säljsamtal.
 
-Bubblare:
+### 52. Erbjuda enkel sökstatistik till andra webbplattformar
+Man bör från andra webbaserade system kunna få enklare sammanställningar från verktyget för sökanalys. Exempelvis att från 
+
+### 53. Ha ett synonym- och associationsverktyg i sökredaktörsverktyget
+För att kunna göra sökredaktionella synonymer och relationskopplingar för enkla ordlistor med synonymer och mer strukturerade relationer mellan olika resurser som sökmotorn känner till.
+
+Associationsverktyget är en sökredaktionell motsvarighet till keymatches/bestbets, exempelvis för att kunna koppla ett visst begrepp till ett visst systems adress (som en genväg) eller för att manuellt knyta samman ett mötesprotokoll med dess videoinspelning.
+
+### 54. Ska sökfunktionen få ställa krav på informationskällor
+Om ja så vilka krav är det som ställs? Dessa behöver dokumenteras, gärna som ett tjänsteutlåtande med förslag till beslut i lämplig nivå inom organisationen.
+
+Exempel på punkter att ta med:
+
+ -	Om det ska vara frivilligt att ha med sin informationskälla i sök (förutsatt att den efterfrågats av användare/behov finns).-	Vem som betalar för respektive källas inkluderande/förvaltande i sök.
+-  Att lokala eller enskilda initiativ kring sök inte ska betyda att man då “slipper” delta i det gemensamma. Exempelvis huruvida det ska vara valfritt att med avvikande söklösningar rapportera in statistik till verktyget för sökanalys.
+
+### Bubblare
 
 - få bort dokument utan innehåll eller med extremt lite unikt innehåll
 - kan sökredaktör få möjlighet att svartlista vissa dokument, och/eller regelstyra (riskabelt?)

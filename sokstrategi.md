@@ -42,6 +42,17 @@ Sökfunktionen ska tillföra verksamhetsnytta i följande scenarier:
 4. När en applikations egna sök inte är ändamålsenlig ska organisationens sökfunktion ta dess plats.
 5. I de fall informationssystem behöver åtkomst till information som redan finns i sökfunktionens index, bland annat för att informationen i sökindexet kan vara i en förbättrad struktur än i originalkällan.
 
+### Sträva mot enhetlighet
+En stor nytta med en intern sökfunktion uppstår när den är etablerad, välkänd och inte har ett flertal konkurrenter om användarnas uppmärksamhet. Det är vanligt att man strävar mot att lägga ner eller ersätta så kallade applikationsök, det vill säga de sökfunktioner som finns inbyggda i applikationer verksamheter använder. Exempel på sådana kan vara dokumenthanteringssystem, projektverktyg, intranät och många fler.
+
+Förutsättningen är att den övergripande sökfunktionen presterar minst lika bra som de sökfunktioner man ämnar ersätta. Med funktion avses inte bara användargränssnittet utan också hur sök förvaltas, exempelvis om man kan utvärdera nollresultat, vanliga sökfrågor, följdhändelser m.m.
+
+I en stor organisation behöver sökfunktionen dels följa den konvention kring sök som användarna har med sig men också eventuellt sätta en intern konvention som kompletterar. Det är av vikt att man med sina egna gränssnitt för sök inte har en inkonsekvent design, relevans eller användarupplevelse i stort. Samtidigt behöver man erbjuda en logisk autonomi och uppdelning för de delar av verksamheten som har goda skäl. Om goda skäl att avvika finns behöver avsteget göras på ett klokt sätt så överblick kring helheten inte går förlorad.  
+Med andra ord finns ett antal krav att ställa på "nya" sökfunktioner oavsett om det är ett nytt eller specialiserat fönster mot befintlig sökfunktion eller faktiskt en helt annan sökfunktion. Grundkraven är åtminstone att:
+
+1. **Samla in användningsdata**, kompatibelt med den gemensamma sökfunktionen. Annars kan man inte bedriva sökanalys och kommer pö om pö att göra det mindre meningsfullt.
+2. **Följa organisationens designkonvention för sökfunktioner**, det är stort som smått. Allt från hur query-completion ska se och fungera till vilken färg sökknappen har. Poängen är igenkänning i det visuella och funktionella, att en användare inte behöver tveka i vem avsändaren är.
+
 ## Användningskrav
 
 Sökfunktionen skall vara det primära alternativet oavsett om användaren är expert eller novis på det hen eftersöker, oavsett om användaren besitter stor digital mognad eller ej.
