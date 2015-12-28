@@ -74,7 +74,7 @@ Punkter:
 4. Eventuellt ersätts befintlig sökfunktion innan midsommar, om det fungerar bra nog.
 
 #### 2016.9 Erbjuda enkel sökstatistik till andra webbplattformar
-Ansvarig för punkten: Frida Erhard (lösningsförslag och tidsuppskattning) 
+Ansvarig för punkten: Frida Erhard (lösningsförslag och tidsuppskattning)  
 Förväntas vara färdigt: Q2 2016 
 
 Man bör från andra webbaserade system kunna få enklare sammanställningar från verktyget för sökanalys. Exempelvis att från webbredaktörssystem kunna ta del av enklare uppgifter som sökanalys-verktyget samlat in, som nollresultat (att innehåll saknas) och vad som är mest eftersökt, vilka söktrender som finns, etc.
@@ -84,7 +84,7 @@ Punkter:
 - Kolla om signal-funktionen till ELK-stacken kan hjälpa till med redaktionella prioriteringar.
 
 ### 2016.10 Ha ett synonym- och associationsverktyg i sökredaktörsverktyget
-Ansvarig för punkten: Frida Erhard (lösningsförslag och tidsuppskattning) 
+Ansvarig för punkten: Frida Erhard (lösningsförslag och tidsuppskattning)  
 Förväntas vara färdigt: Q1 2016 
 
 För att kunna göra sökredaktionella synonymer och relationskopplingar för enkla ordlistor med synonymer och mer strukturerade relationer mellan olika resurser som sökmotorn känner till.
@@ -92,7 +92,7 @@ För att kunna göra sökredaktionella synonymer och relationskopplingar för en
 Associationsverktyget är en sökredaktionell motsvarighet till keymatches/bestbets, exempelvis för att kunna koppla ett visst begrepp till ett visst systems adress (som en genväg) eller för att manuellt knyta samman ett mötesprotokoll med dess videoinspelning.
 
 ### 2016.11 Utbilda i sökanalys
-Ansvarig för punkten: Frida Erhard (tidsuppskattning) / Marcus Österberg 
+Ansvarig för punkten: Frida Erhard (tidsuppskattning) / Marcus Österberg  
 Förväntas vara färdigt: Q1 2016 
 
 Hålla en enklare introduktion i sökanalysverktyget Kibana. Målgrupp är kommunikatörer och webbredaktörer.
