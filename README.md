@@ -7,7 +7,7 @@ Innehåll i detta repo syftar till att samverka med externa parter om hur man b�
 
 Här hittar du bland annat vår öppna dokumentation som har med vårt arbete med sökmotorer att göra, vilket inkluderar sökstrategin, aktivitetslistor, metadata-specifikationer, diverse tjänsteutlåtanden, etc.
 
-Alla är med andra ord välkomna att bidra, må så vara att du vill forka, göra pull-requests, eller mejla (se kontaktuppgifter längst ner).
+Alla är med andra ord välkomna att bidra, må så vara att du vill forka, göra pull-requests, eller mejla synpunkter (se kontaktuppgifter längst ner).
 
 ## Mer under Öppna program
 För att ta del av [VGR:s samlade dokumentation, öppna källkod-projekt och mycket mer går du till **Öppna Program** på Github](http://vastra-gotalandsregionen.github.io/oppna-program/).

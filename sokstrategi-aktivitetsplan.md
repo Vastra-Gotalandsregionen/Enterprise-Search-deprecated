@@ -353,7 +353,7 @@ Hur väl stödjer sökfunktionen medarbetarnas behov av personsök? Saknas relat
 Användare av sökmotorn borde kunna komplettera med uppgifter, särskilt när sökmotorn ger ett nollresultat och användaren själv kan sitta på lite information - exempelvis att söktermen är ett mobilnummer, som ringt upp en person vid ett datum, att det var ett säljsamtal.
 
 ### 52. Erbjuda enkel sökstatistik till andra webbplattformar
-Man bör från andra webbaserade system kunna få enklare sammanställningar från verktyget för sökanalys. Exempelvis att från 
+Man bör från andra webbaserade system kunna få enklare sammanställningar från verktyget för sökanalys. Exempelvis att från webbredaktörssystem kunna ta del av enklare uppgifter som sökanalys-verktyget samlat in, som nollresultat (att innehåll saknas) och vad som är mest eftersökt, vilka söktrender som finns, etc.
 
 ### 53. Ha ett synonym- och associationsverktyg i sökredaktörsverktyget
 För att kunna göra sökredaktionella synonymer och relationskopplingar för enkla ordlistor med synonymer och mer strukturerade relationer mellan olika resurser som sökmotorn känner till.
