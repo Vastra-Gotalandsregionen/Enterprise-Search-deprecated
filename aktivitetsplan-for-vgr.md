@@ -66,7 +66,8 @@ Testa relevansen, utvärdera och utveckla. Bland annat att jämföra hur externa
 Ansvarig för punkten: Marcus Österberg  
 Förväntas vara färdigt: Q3 2016 
 
-Punkter:  
+Punkter:
+
 1. Frida Erhard utvärderar alla delar av nya sökgränssnittet.
 2. Förbättra fliksystemet.
 3. Nya användbarhetstester (Kungälvs sjukhus, troligen).
