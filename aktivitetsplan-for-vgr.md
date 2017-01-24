@@ -99,6 +99,104 @@ Vilken nytta har VGR av att kombinera information från flera datakällor när v
 
 # Arkiverat
 
+## Utvalda aktiviteter - 2016
+###2016.1 "Hitta medarbetare"
+
+Följa prioriteringar och värderingar för intranätprojektet. Bland annat att denna personsök ska vara en sammanställning av flera källor, vissa etablerade regulatoriska (HSA/KiV) och andra mer av självservice-karaktär (social personprofil på intranätet).
+
+Utreda hur detta ska fungera som en mix av DELV, KiV och eventuellt andra personuppgiftskällor. Är det logiskt för en användare att endast interna personkällor används?
+
+###2016.2 Sök- och webbanalys
+
+Påbörja aktiv sök- och webbanalys och ta fram användarstöd. Inrätta funktioner för sökredaktör och community manager (ansvarig för samarbetsytor och sociala kanaler).
+
+Kibana ska läggas under sokanalys.vgregion.se
+
+Se också punkt 2016.11
+
+###2016.3 Komma igång med löpande uppföljning inom sök
+
+Etablera modell för användbarhetstester av sökfunktionen (personsök och övriga).
+
+###2016.4 Utbildningsmaterial till redaktörer och andra
+
+En övergripande handbok är planerad, där bör det ingå en intro till gott innehållsarbete ur en sökmotors perspektiv, samt den dos sökanalys alla bör känna till.
+
+Se också punkt 2016.11 och 2016.6
+
+###2016.5 Söks relation till Sharepoint-sök/innehåll
+
+Ansvarig för punkten: Evelyn Stolfer
+Förväntas vara färdigt: Q1 2016
+
+Exempel på punkter:
+
+Hur samverkar sökfunktionen med Sharepoint som tänkt del i nästa intranät. Sharepoint har egen "sök".
+Hur fungerar sökfunktionens insamling i relation till det Sharepoint-interna indexerandet?
+Hur hanteras personsök genom DELV i kombination med KiV och andra källor (Linkedin, mfl?) som också kan vara externa?
+[Marcus] Utreda om befintlig sökfunktion ska visa upp sig som en applikation inne i nästa intranät, snarare än som idag primärt en helt egen webbplats?
+###2016.6 Ska sökfunktionen få ställa krav på informationskällor
+
+Ansvarig för punkten: Marcus Österberg, teknikaliteter Frida Erhard
+Förväntas vara färdigt: Q1 2016
+
+Om ja så vilka krav är det som ställs? Dessa behöver dokumenteras, gärna som ett tjänsteutlåtande med förslag till beslut i lämplig nivå inom organisationen.
+
+Exempel på punkter att ta med:
+
+Om det ska vara frivilligt att ha med sin informationskälla i sök (förutsatt att den efterfrågats av användare/behov finns).
+Vem som betalar för respektive källas inkluderande/förvaltande i sök.
+Att lokala eller enskilda initiativ kring sök inte ska betyda att man då “slipper” delta i det gemensamma. Exempelvis huruvida det ska vara valfritt att med avvikande söklösningar rapportera in statistik till verktyget för sökanalys.
+###2016.7 Relevansutvärdering
+
+Ansvarig för punkten: Evelyn Stolfer
+Förväntas vara färdigt: Q3 2016
+
+Testa relevansen, utvärdera och utveckla. Bland annat att jämföra hur externa och externa källor rankas sinsemellan.
+
+###2016.8 Ersätta befintligt sökgränssnitt
+
+Ansvarig för punkten: Marcus Österberg
+Förväntas vara färdigt: Q3 2016
+
+Punkter:
+
+Frida Erhard utvärderar alla delar av nya sökgränssnittet.
+Förbättra fliksystemet.
+Nya användbarhetstester (Kungälvs sjukhus, troligen).
+Eventuellt ersätts befintlig sökfunktion innan midsommar, om det fungerar bra nog.
+###2016.9 Erbjuda enkel sökstatistik till andra webbplattformar
+
+Ansvarig för punkten: Frida Erhard (lösningsförslag och tidsuppskattning)
+Förväntas vara färdigt: Q2 2016
+
+Man bör från andra webbaserade system kunna få enklare sammanställningar från verktyget för sökanalys. Exempelvis att från webbredaktörssystem kunna ta del av enklare uppgifter som sökanalys-verktyget samlat in, som nollresultat (att innehåll saknas) och vad som är mest eftersökt, vilka söktrender som finns, etc.
+
+Punkter:
+
+Kolla om signal-funktionen till ELK-stacken kan hjälpa till med redaktionella prioriteringar.
+###2016.10 Ha ett synonym- och associationsverktyg i sökredaktörsverktyget
+
+Ansvarig för punkten: Frida Erhard (lösningsförslag och tidsuppskattning)
+Förväntas vara färdigt: Q1 2016
+
+För att kunna göra sökredaktionella synonymer och relationskopplingar för enkla ordlistor med synonymer och mer strukturerade relationer mellan olika resurser som sökmotorn känner till.
+
+Associationsverktyget är en sökredaktionell motsvarighet till keymatches/bestbets, exempelvis för att kunna koppla ett visst begrepp till ett visst systems adress (som en genväg) eller för att manuellt knyta samman ett mötesprotokoll med dess videoinspelning.
+
+###2016.11 Utbilda i sökanalys
+
+Ansvarig för punkten: Frida Erhard (tidsuppskattning) / Marcus Österberg
+Förväntas vara färdigt: Q1 2016
+
+Hålla en enklare introduktion i sökanalysverktyget Kibana. Målgrupp är kommunikatörer och webbredaktörer.
+
+Punkter:
+
+Frida Erhard tar fram tidsuppskattning för introduktionen (om hon håller den).
+Frida genomför kursen.
+Marcus filmar kursen och producerar ett användarstöd baserat på detta, möjligen som en intern poddsändning.
+
 ## Utvalda aktiviteter - 2015
 
 ### 1. Vi har behov av en organisationsövergripande sökredaktör
