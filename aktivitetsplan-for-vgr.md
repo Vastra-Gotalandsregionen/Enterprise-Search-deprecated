@@ -122,13 +122,13 @@ Förväntas vara färdigt: Q3 2017
 
 Utreda och komma med förslag på hur Solr erbjuder sökdrivna menyer, listningar via ett API till exempelvis Episerver CMS. Lämna som förslag till beslut för objektledarna.
 
-### 2017.15 Inventera informationskällor att lyfta till i3
+### 2017.15 Inventera (och lyft) informationskällor till i3
 Ansvarig för punkten: Evelyn Stolfer  
 Förväntas vara färdigt: Q2 2017
 
 Komma med förslag på i vilken ordning och hur snabbt vi kan lyfta över befintliga källor till i3. Måste alla med? Finns kompetens för att göra en relevansbedömning för respektive fält i varje källa?
 
-Lämna förslag till objektledarna.
+Lämna förslag till objektledarna om vilka de tre viktigaste källorna är och exakt när de kan föras över till i3.
 
 ## Önskvärda aktiviteter - 2018
 Inget ännu.
