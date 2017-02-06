@@ -130,6 +130,8 @@ Komma med förslag på i vilken ordning och hur snabbt vi kan lyfta över befint
 
 Lämna förslag till objektledarna om vilka de tre viktigaste källorna är och exakt när de kan föras över till i3.
 
+## Utförda aktiviteter 2017
+
 ## Önskvärda aktiviteter - 2018
 Inget ännu.
 
